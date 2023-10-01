@@ -1,0 +1,11 @@
+﻿l_russian:
+  megalist_title:0 "Список мегасооружений"
+  megalist_desc:99 ""
+  MEGALIST_ENTRY:0 "[This.GetName] в [This.solar_system.Star.GetName]"
+  MEGALIST_ENTRY_DESC:99 ""
+  megalist_building_title:0 "Улучшить мегасооружения"
+  megalist_building_desc:0 ""
+  MEGALIST_BUILDING_ENTRY:0 "[This.GetName] в [This.solar_system.Star.GetName]"
+  MEGALIST_BUILDING_ENTRY_DESC:0 ""
+  
+  MEGASTRUCTURE_SELECTION_LEGEND:99 "§HЗначки:§!\n\n£galwonders£ §EОткрывает $ap_galactic_wonders$§!\nЗавершение строительства этого мегасооружения выполнит требование бонуса за стремление §Y$ap_galactic_wonders$§!.\n\n£gigastructural£ §EОткрывет $ap_gigastructural_constructs$§!\nЗавершение строительства этого мегасооружения выполнит требование бонуса за стремление §Y$ap_gigastructural_constructs$§!.\n\n£megaupgrade£ §EБонус откроется после обновления§!\nКогда он отображается рядом с одним из вышеперечисленных значков, это означает, что бонус будет открыт только при последующем обновлении мегасооружения и не будет доступен сразу.\n\n§LПримечание: Мегасооружения, добавленные другими модами, кроме Gigastructural Engineering & More, не будут отмечены этими значками, но все равно могут открывать бонусы, в частности $ap_galactic_wonders$.§!"

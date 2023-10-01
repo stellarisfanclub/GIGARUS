@@ -1,0 +1,92 @@
+﻿l_russian:
+ country_modifiers:0 "Модификаторы государства"
+# Monthly ££ ResourceName
+ mod_country_modifiers_energy_produces_add:0 "£energy£ $energy$ ежемесячно"
+ mod_country_modifiers_energy_produces_mult:0 "£energy£ $energy$ ежемесячно" 
+ mod_country_modifiers_energy_upkeep_add:0 "Ежемесячные траты £energy£ энергокредитов на содержание" 
+ mod_country_modifiers_energy_upkeep_mult:0 "Ежемесячные траты £energy£ энергокредитов на содержание" 
+
+ mod_country_modifiers_minerals_produces_add:0 "£minerals£ $minerals$ ежемесячно" 
+ mod_country_modifiers_minerals_produces_mult:0 "£minerals£ $minerals$ ежемесячно" 
+ mod_country_modifiers_minerals_upkeep_add:0 "Ежемесячный расход £minerals£ минералов на содержание" 
+ mod_country_modifiers_minerals_upkeep_mult:0 "Ежемесячный расход £minerals£ минералов на содержание" 
+
+ mod_country_modifiers_alloys_produces_add:0 "£alloys£ $alloys$ ежемесячно" 
+ mod_country_modifiers_alloys_produces_mult:0 "£alloys£ $alloys$ ежемесячно" 
+ mod_country_modifiers_alloys_upkeep_add:0 "Ежемесячный расход £alloys£ сплавов на содержание" 
+ mod_country_modifiers_alloys_upkeep_mult:0 "Ежемесячный расход £alloys£ сплавов на содержание" 
+
+ mod_country_modifiers_food_produces_add:0 "£food£ $food$ ежемесячно" 
+ mod_country_modifiers_food_produces_mult:0 "£food£ $food$ ежемесячно" 
+ mod_country_modifiers_food_upkeep_add:0 "Ежемесячный расход £food£ пищи на содержание" 
+ mod_country_modifiers_food_upkeep_mult:0 "Ежемесячный расход £food£ пищи на содержание" 
+
+ mod_country_modifiers_consumer_goods_produces_add:0 "£consumer_goods£ $consumer_goods$ ежемесячно" 
+ mod_country_modifiers_consumer_goods_produces_mult:0 "£consumer_goods£ $consumer_goods$ ежемесячно" 
+ mod_country_modifiers_consumer_goods_upkeep_add:0 "Ежемесячное расход £consumer_goods£ товаров массового спроса на содержание" 
+ mod_country_modifiers_consumer_goods_upkeep_mult:0 "Ежемесячное расход £consumer_goods£ товаров массового спроса на содержание" 
+
+ mod_country_modifiers_unity_produces_add:0 "£unity£ $unity$ ежемесячно" 
+ mod_country_modifiers_unity_produces_mult:0 "£unity£ $unity$ ежемесячно" 
+ mod_country_modifiers_unity_upkeep_add:0 "Ежемесячные затраты £unity£ единства на содержание" 
+ mod_country_modifiers_unity_upkeep_mult:0 "Ежемесячные затраты £unity£ единства на содержание" 
+
+ mod_country_modifiers_influence_produces_add:0 "£influence£ $influence$ ежемесячно" 
+ mod_country_modifiers_influence_produces_mult:0 "£influence£ $influence$ ежемесячно" 
+ mod_country_modifiers_influence_upkeep_add:0 "Ежемесячный расход £influence£ влияния на содержание" 
+ mod_country_modifiers_influence_upkeep_mult:0 "Ежемесячный расход £influence£ влияния на содержание" 
+
+ mod_country_modifiers_physics_research_produces_add:0 "£physics£ $physics_research$ ежемесячно" 
+ mod_country_modifiers_physics_research_produces_mult:0 "£physics£ $physics_research$ ежемесячно" 
+ mod_country_modifiers_physics_research_upkeep_add:0 "£physics£ $physics_research$ ежемесячное обслуживание" 
+ mod_country_modifiers_physics_research_upkeep_mult:0 "£physics£ $physics_research$ ежемесячное обслуживание" 
+
+ mod_country_modifiers_society_research_produces_add:0 "£society£ $society_research$ ежемесячно" 
+ mod_country_modifiers_society_research_produces_mult:0 "£society£ $society_research$ ежемесячно" 
+ mod_country_modifiers_society_research_upkeep_add:0 "£society£ $society_research$ ежемесячное обслуживание" 
+ mod_country_modifiers_society_research_upkeep_mult:0 "£society£ $society_research$ ежемесячное обслуживание" 
+
+ mod_country_modifiers_engineering_research_produces_add:0 "£engineering£ $engineering_research$ ежемесячно" 
+ mod_country_modifiers_engineering_research_produces_mult:0 "£engineering£ $engineering_research$ ежемесячно" 
+ mod_country_modifiers_engineering_research_upkeep_add:0 "£engineering£ $engineering_research$ ежемесячное обслуживание" 
+ mod_country_modifiers_engineering_research_upkeep_mult:0 "£engineering£ $engineering_research$ ежемесячное обслуживание" 
+
+ mod_country_modifiers_rare_crystals_produces_add:0 "£rare_crystals£ $rare_crystals$ ежемесячно" 
+ mod_country_modifiers_rare_crystals_produces_mult:0 "£rare_crystals£ $rare_crystals$ ежемесячно" 
+ mod_country_modifiers_rare_crystals_upkeep_add:0 "Ежемесячное содержание в £rare_crystals£ редких кристаллах" 
+ mod_country_modifiers_rare_crystals_upkeep_mult:0 "Ежемесячное содержание в £rare_crystals£ редких кристаллах" 
+
+ mod_country_modifiers_exotic_gases_produces_add:0 "£exotic_gases£ $exotic_gases$ ежемесячно" 
+ mod_country_modifiers_exotic_gases_produces_mult:0 "£exotic_gases£ $exotic_gases$ ежемесячно" 
+ mod_country_modifiers_exotic_gases_upkeep_add:0 "Ежемесячное содержание в £exotic_gases£ экзотических газах" 
+ mod_country_modifiers_exotic_gases_upkeep_mult:0 "Ежемесячное содержание в £exotic_gases£ экзотических газах" 
+
+ mod_country_modifiers_volatile_motes_produces_add:0 "£volatile_motes£ $volatile_motes$ ежемесячно" 
+ mod_country_modifiers_volatile_motes_produces_mult:0 "£volatile_motes£ $volatile_motes$ ежемесячно" 
+ mod_country_modifiers_volatile_motes_upkeep_add:0 "Ежемесячное содержание в £volatile_motes£ летучих пылинках" 
+ mod_country_modifiers_volatile_motes_upkeep_mult:0 "Ежемесячное содержание в £volatile_motes£ летучих пылинках" 
+
+ mod_country_modifiers_sr_living_metal_produces_add:0 "£sr_living_metal£ Живой металл ежемесячно" 
+ mod_country_modifiers_sr_living_metal_produces_mult:0 "£sr_living_metal£ Живой металл ежемесячно" 
+ mod_country_modifiers_sr_living_metal_upkeep_add:0 "Ежемесячный расход £sr_living_metal£ живого металла на содержание" 
+ mod_country_modifiers_sr_living_metal_upkeep_mult:0 "Ежемесячный расход £sr_living_metal£ живого металла на содержание" 
+
+ mod_country_modifiers_sr_zro_produces_add:0 "£sr_zro£ $sr_zro$ ежемесячно" 
+ mod_country_modifiers_sr_zro_produces_mult:0 "£sr_zro£ $sr_zro$ ежемесячно" 
+ mod_country_modifiers_sr_zro_upkeep_add:0 "Ежемесячное содержание в £sr_zro£ зро" 
+ mod_country_modifiers_sr_zro_upkeep_mult:0 "Ежемесячное содержание в £sr_zro£ зро" 
+
+ mod_country_modifiers_sr_dark_matter_produces_add:0 "£sr_dark_matter£ Темная материя ежемесячно" 
+ mod_country_modifiers_sr_dark_matter_produces_mult:0 "£sr_dark_matter£ Темная материя ежемесячно" 
+ mod_country_modifiers_sr_dark_matter_upkeep_add:0 "Ежемесячный расход £sr_dark_matter£ темной материи на содержание" 
+ mod_country_modifiers_sr_dark_matter_upkeep_mult:0 "Ежемесячный расход £sr_dark_matter£ темной материи на содержание" 
+
+ mod_country_modifiers_nanites_produces_add:0 "£nanites£ Наниты ежемесячно" 
+ mod_country_modifiers_nanites_produces_mult:0 "£nanites£ Наниты ежемесячно" 
+ mod_country_modifiers_nanites_upkeep_add:0 "Ежемесячное содержание в £nanites£ нанитах" 
+ mod_country_modifiers_nanites_upkeep_mult:0 "Ежемесячное содержание в £nanites£ нанитах" 
+
+ mod_country_modifiers_minor_artifacts_produces_add:0 "£minor_artifacts£ $MINOR_ARTIFACTS$ ежемесячно" 
+ mod_country_modifiers_minor_artifacts_produces_mult:0 "£minor_artifacts£ $MINOR_ARTIFACTS$ ежемесячно" 
+ mod_country_modifiers_minor_artifacts_upkeep_add:0 "Ежемесячное содержание в £minor_artifacts£ малых артефактах" 
+ mod_country_modifiers_minor_artifacts_upkeep_mult:0 "Ежемесячное содержание в £minor_artifacts£ малых артефактах" 

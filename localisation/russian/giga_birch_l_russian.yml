@@ -1,0 +1,1442 @@
+﻿l_russian:
+  
+  name_birch:0 "Мир Берча"
+  allow_birch:0 "§HОткрывает мегасооружение:§! $name_birch$"
+  desc_birch:0 "Мир Берча - это поистине гигантская среда обитания, построенная вокруг сверхмассивной черной дыры, и способна вместить практически бесконечное количество живых существ."
+  allow_district_birch_orykta:99 "§HОткрывает район:§! $name_birch$ $district_giga_birch_orykta$"
+  desc_district_birch_orykta:0  "Позволяет построить $district_giga_birch_orykta_plural$ на мире Берча"
+  allow_district_birch_ktisma:0 "§HОткрывает район:§! $name_birch$ $district_giga_birch_ktisma$"
+  desc_district_birch_ktisma:0 "Позволяет построить $district_giga_birch_ktisma_plural$ на мире Берча"
+  allow_district_birch_physma:0 "§HОткрывает район:§! $name_birch$ $district_giga_birch_physma$"
+  desc_district_birch_physma:0 "Позволяет построить $district_giga_birch_physma_plural$ на мире Берча"
+  
+  pc_birch:99 "$name_birch$"
+  pc_birch_desc:0 "Состоящая из сотен концентрических слоев, расположенных вокруг сверхмассивной черной дыры, $pc_birch$ является крупнейшим мыслимым примером мира-ракушки - искусственного Сооружения с множеством твердых оболочек вокруг источника гравитации. Имея триллионы планет пригодных для жизни в месте, он может поддерживать фактически неограниченное население."
+  pc_birch_adj:99 "Берч"
+  
+  pc_origin_birch:99 "Упадочный $pc_birch$"
+  pc_origin_birch_desc:99 "$pc_birch_desc$\n\nДанный $pc_birch$ находится в состоянии значительного разрушения, большинство его систем в настоящее время отключены. Основная цивилизация этого мира живет на единственном искусственном континенте или Острове, и получает доступ в космос через дыру во внешней оболочке."
+  pc_origin_birch_adj:99 "Берч"
+  
+  pc_origin_dummy_birch:99 "$pc_origin_birch$"
+  pc_origin_dummy_birch_desc:99 "$pc_origin_birch_desc$"
+  pc_origin_dummy_birch_adj:99 "$pc_origin_birch_adj$"
+  
+  pc_giga_edge_of_eternity:99 "$pc_melted_frozen$"
+  pc_giga_edge_of_eternity_desc:99 "Планета, покрытая океанами километровой глубины. На поверхности бушуют глобальные штормы, а невероятно высокие волны - обычное явление. Окружающая среда этой планеты была бы слишком бурной, чтобы позволить колонизацию, если бы не древний аркологический комплекс, расположенный недалеко от южного полюса планеты."
+  pc_giga_edge_of_eternity_adj:99 "$pc_melted_frozen_adj$"
+  
+  giga_birch_dummy_system:99 "Эхо"
+  giga_birch_dummy_system_star:99 "$giga_birch_dummy_system$"
+  giga_birch_dummy_system_planet_1:99 "$giga_birch_dummy_system_star$ I"
+  giga_birch_dummy_system_planet_2:99 "$giga_birch_dummy_system_star$ II"
+  giga_birch_dummy_system_planet_3:99 "$giga_birch_dummy_system_star$ III"
+  giga_birch_dummy_system_planet_3_moon_1:99 "$giga_birch_dummy_system_planet_3$a"
+  giga_birch_dummy_system_planet_3_moon_2:99 "$giga_birch_dummy_system_planet_3$b"
+  giga_birch_dummy_system_planet_3_moon_3:99 "$giga_birch_dummy_system_planet_3$c"
+  
+  giga_birch_origin_critters:99 "Древние хранители"
+  giga_birch_origin_critters_fleet:99 "Дряхлые наблюдатели"
+  giga_birch_origin_critters_ship:99 "Распадающийся наблюдатель"
+  
+  giga_birch_start_NAME:99 "Распадающееся ядро"
+  giga_birch_start_DESC:99 "Родной мир - $pc_origin_birch$ в галактическом ядре."
+  
+  #################
+  ### Districts ###
+  #################
+  
+  district_giga_birch_structure:0 "Сердце Мира"
+  district_giga_birch_structure_plural:0 "Сердце Мира"
+  district_giga_birch_structure_desc:0 "Небольшой остров в бесконечном мире Берч. Именно здесь содержатся наши эксперты по строительству, что возводят новые острова по нашим потребностям."
+  mod_district_giga_birch_structure_max:0 "$district_giga_birch_structure$: максимум"
+  
+  # orykta
+  
+  district_giga_birch_orykta:99 "Остров Орикта"
+  district_giga_birch_orykta_plural:99 "Острова Орикта"
+  district_giga_birch_orykta_desc:99 "Остров, подключенный к горизонту событий, где огромные конструкции извлекают материю и энергию из сверхмассивной черной дыры."
+  mod_district_giga_birch_orykta_max:99 "$district_giga_birch_orykta_plural$: максимум"
+  
+  district_giga_birch_orykta_energy:99 "Инжектор Пенроуза"
+  district_giga_birch_orykta_energy_plural:99 "Инжекторы Пенроуза"
+  district_giga_birch_orykta_energy_desc:99 "Эти ускорители и коллекторы лишают черную дыру углового момента, пропуская фотоны через ее эргосферу."
+  mod_district_giga_birch_orykta_energy_max:99 "$district_giga_birch_orykta_energy_plural$: максимум"
+  
+  district_giga_birch_orykta_minerals:99 "Область скважин"
+  district_giga_birch_orykta_minerals_plural:99 "Область скважин"
+  district_giga_birch_orykta_minerals_desc:99 "Буры с искривленной гравитацией, которые извлекают потерянную материю из-за горизонта событий."
+  mod_district_giga_birch_orykta_minerals_max:99 "$district_giga_birch_orykta_minerals_plural$: максимум"
+  
+  district_giga_birch_orykta_dark_matter:99 "Ассамблея ткачей"
+  district_giga_birch_orykta_dark_matter_plural:99 "Ассамблеи ткачей"
+  district_giga_birch_orykta_dark_matter_desc:99 "Сеть тонких детекторов и еще более точных манипуляторов, используемых для отвода темной материи от черной дыры."
+  mod_district_giga_birch_orykta_dark_matter_max:99 "$district_giga_birch_orykta_dark_matter_plural$: максимум"
+  
+  district_giga_birch_orykta_negative_mass:99 "Конденсатор отрицательной массы"
+  district_giga_birch_orykta_negative_mass_plural:99 "Конденсаторы отрицательной массы"
+  district_giga_birch_orykta_negative_mass_desc:99 "Экзотические условия вблизи горизонта событий черной дыры оказались полезными для преобразования отрицательной массы."
+  mod_district_giga_birch_orykta_negative_mass_max:99 "$district_giga_birch_orykta_negative_mass_plural$: максимум"
+  
+  # ktisma
+  
+  district_giga_birch_ktisma:0 "Остров Ктисма"
+  district_giga_birch_ktisma_plural:0 "Острова Ктисма"
+  district_giga_birch_ktisma_desc:0 "Этот остров очень напоминает наши старые проекты по экуменополису. Один бескрайний город, возведенный на другом бесконечном городе."
+  mod_district_giga_birch_ktisma_max:99 "$district_giga_birch_ktisma_plural$: максимум"
+  
+  district_giga_birch_ktisma_foundry:99 "Литейный сектор"
+  district_giga_birch_ktisma_foundry_plural:99 "Литейные сектора"
+  district_giga_birch_ktisma_foundry_desc:99 "Ряды литейных цехов производят высококачественные сплавы для использования в передовых проектах."
+  mod_district_giga_birch_ktisma_foundry_max:99 "$district_giga_birch_ktisma_foundry_plural$: максимум"
+  
+  district_giga_birch_ktisma_factory:99 "Индустриальный сектор"
+  district_giga_birch_ktisma_factory_plural:99 "Индустриальные сектора"
+  district_giga_birch_ktisma_factory_desc:99 "Бесконечные производственные линии выпускают товары для гражданского рынка."
+  mod_district_giga_birch_ktisma_factory_max:99 "$district_giga_birch_ktisma_factory_plural$: максимум"
+  
+  district_giga_birch_ktisma_supertensiles:99 "Сектор молекулярных кузниц"
+  district_giga_birch_ktisma_supertensiles_plural:99 "Сектора молекулярных кузниц"
+  district_giga_birch_ktisma_supertensiles_desc:99 "$district_giga_supertensiles_desc$"
+  mod_district_giga_birch_ktisma_supertensiles_max:99 "$district_giga_birch_ktisma_supertensiles_plural$: максимум"
+  
+  district_giga_birch_ktisma_sentient_metal:99 "Сектор культивирования разумного металла"
+  district_giga_birch_ktisma_sentient_metal_plural:99 "Сектора культивирования разумных металлов"
+  district_giga_birch_ktisma_sentient_metal_desc:99 "Эти специализированные объекты снабжают культуры разумного металла сплавами и энергией, необходимыми им для воспроизводства."
+  mod_district_giga_birch_ktisma_sentient_metal_max:99 "$district_giga_birch_ktisma_sentient_metal_plural$: максимум"
+  
+  district_giga_birch_ktisma_refinery:99 "Сектор переработки"
+  district_giga_birch_ktisma_refinery_plural:99 "Сектора переработки"
+  district_giga_birch_ktisma_refinery_desc:99 "Огромные сооружения, предназначенные для производства стратегических ресурсов."
+  mod_district_giga_birch_ktisma_refinery_max:99 "$district_giga_birch_ktisma_refinery_plural$: максимум"
+  
+  # physma
+  
+  district_giga_birch_physma:0 "Остров Физма"
+  district_giga_birch_physma_plural:0 "Острова Физмы"
+  district_giga_birch_physma_desc:0 "Этот остров спроектирован как можно более естественно.Тут воссозданы биосферы планет со всей галактики, а также несколько новых сред нашей собственной разработки для отдыха и покоя. Условия идеальны для ведения сельского хозяйства, научных исследований и культурных проектов."
+  mod_district_giga_birch_physma_max:99 "$district_giga_birch_physma_plural$ : максимум"
+  
+  district_giga_birch_physma_farm:99 "Сельскохозяйственный регион"
+  district_giga_birch_physma_farm_plural:99 "Сельскохозяйственные регионы"
+  district_giga_birch_physma_farm_desc:99 "Бесконечные моря сельскохозяйственных угодий простираются по всему сектору, выращивая огромное количество пищи."
+  mod_district_giga_birch_physma_farm_max:99 "$district_giga_birch_physma_farm_plural$: максимум"
+  
+  district_giga_birch_physma_laboratory:99 "Научный сектор"
+  district_giga_birch_physma_laboratory_plural:99 "Научные сектора"
+  district_giga_birch_physma_laboratory_desc:99 "Исследовательские учреждения всех видов заполняют этот сектор."
+  mod_district_giga_birch_physma_laboratory_max:99 "$district_giga_birch_physma_laboratory_plural$: максимум"
+  
+  district_giga_birch_physma_trade:99 "Торговый центр"
+  district_giga_birch_physma_trade_plural:99 "Торговые центры"
+  district_giga_birch_physma_trade_desc:99 "Бесконечные торговые зоны, где жизнь не угасает ни на мгновение."
+  mod_district_giga_birch_physma_trade_max:99 "$district_giga_birch_physma_trade_plural$: максимум"
+  
+  district_giga_birch_physma_bureaucratic:99 "Бюрократический комплекс"
+  district_giga_birch_physma_bureaucratic_plural:99 "Бюрократические комплексы"
+  district_giga_birch_physma_bureaucratic_desc:99 "Легионы административной машины трудятся, чтобы оправдать растущие ожидания расширяющейся бюрократии."
+  mod_district_giga_birch_physma_bureaucratic_max:99 "$district_giga_birch_physma_bureaucratic_plural$: максимум"
+  
+  district_giga_birch_physma_temple:99 "Священническая аркология"
+  district_giga_birch_physma_temple_plural:99 "Священнические аркологии"
+  district_giga_birch_physma_temple_desc:99 "Эти шпили, истинное свидетельство нашей верности, вполне могут быть ключом к духовному благополучию государства."
+  mod_district_giga_birch_physma_temple_max:99 "$district_giga_birch_physma_temple_plural$: максимум"
+  
+  district_giga_birch_physma_relay:99 "Комплекс связи"
+  district_giga_birch_physma_relay_plural:99 "Комплексы связи"
+  district_giga_birch_physma_relay_desc:99 "Огромные центры обработки сигналов, которые поступают от центрального сознания, фильтруются и очищаются от шума, а затем отправляются дальше."
+  mod_district_giga_birch_physma_relay_max:99 "$district_giga_birch_physma_relay_plural$: максимум"
+  
+  district_giga_birch_physma_sanctuary:99 "Аркология-убежище"
+  district_giga_birch_physma_sanctuary_plural:99 "Аркологии-убежища"
+  district_giga_birch_physma_sanctuary_desc:99 "Просторные жилые помещения, где органические существа могут жить приятной, полноценной и - прежде всего - контролируемой жизнью."
+  mod_district_giga_birch_physma_sanctuary_max:99 "$district_giga_birch_physma_sanctuary_plural$: максимум"
+  
+  # origin
+  district_giga_origin_birch_lab:99 "Археологический район"
+  district_giga_origin_birch_lab_plural:99 "Археологические районы"
+  district_giga_origin_birch_lab_desc:99 "Остатки строителей сооружения, эти места полны древних технологий."
+  district_giga_origin_birch_lab_tooltip:99 "Наши экспедиции могут повысить производительность этого района.\n "
+  mod_district_giga_origin_birch_lab_max:99 "$district_giga_origin_birch_lab_plural$: максимум"
+  
+  # defunct
+    district_giga_birch_extraction:0 "Несостоявшийся район"
+    district_giga_birch_extraction_desc:0 "Если вы видите это, подождите месяц, пока оно исчезнет."
+  
+  #######################
+  ### District Groups ###
+  #######################
+  # the invisible characters are deliberate and required, but will only work with the standard bitmap font
+  # so translations which change character set (e.g. chinese) won't see anything
+  
+  # when you put two icons next to each other directly in a loc string, they break
+  # however, when you use references to other entries, they don't, so using these keeps them nice and compressed
+  giga_r_energy:99 "£energy£"
+  giga_r_minerals:99 "£minerals£"
+  giga_r_food:99 "£food£"
+  
+  giga_r_physics:99 "£physics_research£"
+  giga_r_society:99 "£society_research£"
+  giga_r_engineering:99 "£engineering_research£"
+  giga_r_research:99 "$giga_r_physics$$giga_r_society$$giga_r_engineering$"
+  giga_r_unity:99 "£unity£"
+  
+  giga_r_alloys:99 "£alloys£"
+  giga_r_cgs:99 "£consumer_goods£"
+  
+  giga_r_motes:99 "£volatile_motes£"
+  giga_r_gases:99 "£exotic_gases£"
+  giga_r_crystals:99 "£rare_crystals£"
+  giga_r_dm:99 "£sr_dark_matter£"
+  
+  giga_r_negative_mass:99 "£ehof_sr_negative_mass£"
+  giga_r_sentient_metal:99 "£ehof_sr_sentient_metal£"
+  giga_r_supertensiles:99 "£giga_sr_amb_megaconstruction£"
+  
+  # insulae
+  giga_birch_insula_col:99 "§B"
+  giga_birch_insula_icon:99 "£mod_giga_birch_district_insula_max£"
+  giga_birch_insula_name:99 "$giga_birch_insula_col$Остров§!"
+  giga_birch_insula_name_plural:99 "$giga_birch_insula_col$Острова§!"
+  
+  giga_birch_district_insula_tooltip:99 "$giga_birch_insula_icon$$giga_birch_insula_col$Острова§! - это огромные искусственно созданные участки поверхности выполняющие туже функцию, что и районы на обычных планетах. На фоне мира Берч они выглядят песчинками. Каждый тип охватывает общую область производства и может быть специализирован путем строительства соответствующих секторов, но все они используют один и тот же общий строительный лимит.\n "
+  
+  #mod_giga_birch_district_insula_tag:99 "\nThis is an $giga_birch_insula_icon$$giga_birch_insula_name$. It shares a cap with other $giga_birch_insula_name$ type districts.\n"
+  mod_giga_birch_district_insula_tag:99 "Это $giga_birch_insula_icon$$giga_birch_insula_name$. Он имеет общую вместимость с другими районами типа $giga_birch_insula_name$.\n"
+  mod_giga_birch_district_insula_tag_short:99 ""
+  
+  #mod_giga_birch_district_insula_max:99 "\nMax $giga_birch_insula_col$Insulae§!"
+  mod_giga_birch_district_insula_max:99 "$giga_birch_insula_col$Острова§!: максимум"
+  mod_giga_birch_district_insula_min:99 "Минимум $giga_birch_insula_col$Островов§! для поселений"
+  mod_giga_birch_district_insula_per_pop:99 "§G+1§! $giga_birch_insula_col$Остров§! за каждые §Y$VALUE$§! поселений"
+  mod_giga_birch_district_insula_per_pop_short:99 "\n§G+1§! £mod_giga_birch_district_insula_max£ для §Y$VALUE$§! £pop£"
+  giga_birch_district_insula_allow:99 "§RЭта планета больше не может поддерживать $giga_birch_insula_col$Острова§!§!"
+  
+  # orykta
+  giga_birch_orykta_col:99 "§P"
+  giga_birch_orykta_icon:99 "£mod_giga_birch_district_orykta_max£"
+  giga_birch_orykta_corner:99 "$giga_birch_orykta_col$‌§!" # between the $ and § there is a single zero-width character (U+200C)
+  giga_birch_orykta_name:99 "$giga_birch_orykta_col$Орикта§!"
+  
+  giga_birch_district_orykta_tooltip:99 "$giga_birch_orykta_icon$$giga_birch_orykta_name$ Сектора специализируются на сборе и переработке недоступных в иных случаях $giga_r_energy$$giga_r_minerals$$giga_r_dm$[owner.BirchNegativeMass] §Yресурсов§! из сверхмассивной черной дыры под миром Берч.\n "
+  
+  #mod_giga_birch_district_orykta_tag:99 "$giga_birch_orykta_corner$\nThis is an $giga_birch_orykta_icon$$giga_birch_orykta_name$ Sector. It shares a cap with other $giga_birch_orykta_name$ sectors.\n"
+  mod_giga_birch_district_orykta_tag:99 "Это сектор $giga_birch_orykta_icon$$giga_birch_orykta_name$. Другие сектора от $giga_birch_orykta_name$ имеют общую вместимость.\n"
+  mod_giga_birch_district_orykta_tag_short:99 ""
+  
+  #mod_giga_birch_district_insula_orykta_tag:99 "$giga_birch_orykta_corner$$mod_giga_birch_district_insula_tag$"
+  mod_giga_birch_district_insula_orykta_tag:99 "$mod_giga_birch_district_insula_tag$"
+  mod_giga_birch_district_insula_orykta_tag_short:99 ""
+  
+  mod_giga_birch_district_orykta_max:99 "Сектора $giga_birch_orykta_col$Орикта§!: максимум"
+  giga_birch_district_orykta_allow:99 "§RЭта планета больше не может поддерживать сектора $giga_birch_orykta_name$§!"
+  
+  # ktisma
+  giga_birch_ktisma_col:99 "§L"
+  giga_birch_ktisma_icon:99 "£mod_giga_birch_district_ktisma_max£"
+  giga_birch_ktisma_corner:99 "$giga_birch_ktisma_col$‌‌§!" # between the $ and § there is a single zero-width character (U+200C)
+  giga_birch_ktisma_name:99 "$giga_birch_ktisma_col$Ктисма§!"
+  
+  giga_birch_district_ktisma_tooltip:99 "$giga_birch_ktisma_icon$$giga_birch_ktisma_name$ Сектора специализируются на производстве и обработке $giga_r_alloys$[owner.BirchCGs][owner.BirchSentientMetal][owner.BirchSupertensiles] §Yпередовых материалов§! и $giga_r_motes$$giga_r_gases$$giga_r_crystals$ §Yредких ресурсов§!.\n "
+  
+  #mod_giga_birch_district_ktisma_tag:99 "$giga_birch_ktisma_corner$\nThis is a $giga_birch_ktisma_icon$$giga_birch_ktisma_name$ Sector. It shares a cap with other $giga_birch_ktisma_name$ sectors.\n"
+  mod_giga_birch_district_ktisma_tag:99 "Это сектор $giga_birch_ktisma_icon$$giga_birch_ktisma_name$. Другие сектора от $giga_birch_ktisma_name$ имеют общую вместимость.\n"
+  mod_giga_birch_district_ktisma_tag_short:99 ""
+  
+  #mod_giga_birch_district_insula_ktisma_tag:99 "$giga_birch_ktisma_corner$$mod_giga_birch_district_insula_tag$"
+  mod_giga_birch_district_insula_ktisma_tag:99 "$mod_giga_birch_district_insula_tag$"
+  mod_giga_birch_district_insula_ktisma_tag_short:99 ""
+  
+  mod_giga_birch_district_ktisma_max:99 "Сектора $giga_birch_ktisma_col$Ктисма§!: максимум"
+  giga_birch_district_ktisma_allow:99 "§RЭта планета больше не может поддерживать сектора $giga_birch_ktisma_name$§!"
+  
+  # physma
+  giga_birch_physma_col:99 "§E"
+  giga_birch_physma_icon:99 "£mod_giga_birch_district_physma_max£"
+  giga_birch_physma_corner:99 "$giga_birch_physma_col$‌‌§!" # between the $ and § there is a single zero-width character (U+200C)
+  giga_birch_physma_name:99 "$giga_birch_physma_col$Физма§!"
+  
+  giga_birch_district_physma_tooltip:99 "$giga_birch_physma_icon$$giga_birch_physma_name$ Сектора, созданные для отдыха, изучения общества и мира. Здесь можно найти £food£ §Yфермы§!, $giga_r_research$ §Yлаборатории§!, £mod_trade_value_add£ §Yторговые центры§! и области £unity£ §Yкультурного интереса§!.\n "
+  giga_birch_district_physma_gestalt_tooltip:99 "$giga_birch_physma_name$ Сектора, созданные для отдыха, изучения общества и мира. Здесь можно найти £food£ §Yфермы§!, $giga_r_research$ §Yлаборатории§! и области £unity£ §Yкультурного интереса§!.\n "
+  
+  #mod_giga_birch_district_physma_tag:99 "$giga_birch_physma_corner$\nThis is a $giga_birch_physma_icon$$giga_birch_physma_name$ Sector. It shares a cap with other $giga_birch_physma_name$ sectors.\n"
+  mod_giga_birch_district_physma_tag:99 "Это сектор $giga_birch_physma_icon$$giga_birch_physma_name$. Другие сектора от $giga_birch_physma_name$ имеют общую вместимость.\n"
+  mod_giga_birch_district_physma_tag_short:99 ""
+  
+  #mod_giga_birch_district_insula_physma_tag:99 "$giga_birch_physma_corner$$mod_giga_birch_district_insula_tag$"
+  mod_giga_birch_district_insula_physma_tag:99 "$mod_giga_birch_district_insula_tag$"
+  mod_giga_birch_district_insula_physma_tag_short:99 ""
+  
+  mod_giga_birch_district_physma_max:99 "Сектора $giga_birch_physma_col$Physma§!: максимум"
+  giga_birch_district_physma_allow:99 "§RЭта планета больше не может поддерживать сектора $giga_birch_physma_name$§!"
+  
+  ############
+  ### Jobs ###
+  ############
+  
+  planet_giga_birch_structure_managers:99 "Деятельность: Управляющий сооружением Берч"
+  planet_giga_birch_structure_engineers:99 "Деятельность: Инженер сооружением Берч"
+  planet_giga_birch_insula_managers:99 "Деятельность: Управляющий Острова Берч"
+  planet_giga_birch_insula_workers:99 "Деятельность: Рабочий Острова Берч"
+  
+  ########################################################################################################################################################
+  # Regular
+  job_giga_birch_structure_manager:99 "Управляющий Островов"
+  job_giga_birch_structure_manager_plural:99 "Управляющие Островов"
+  job_giga_birch_structure_manager_desc:99 "Главный отдел всего Сердца Мира, наши самые квалифицированные эксперты руководят группами инженеров при строительстве новых Островов."
+  job_giga_birch_structure_manager_effect_desc:99 "£job_giga_birch_structure_manager£ $job_giga_birch_structure_manager_plural$ превращают £alloys£ §Y$alloys$§! и £consumer_goods£ §Y$consumer_goods$§! в £engineering_research£ §Y$engineering_research$§! и £unity£ §Y$unity$§!, противодействуют §Yбезработице§! и предоставляют деятельность: £job_giga_birch_structure_engineer£ $job_giga_birch_structure_engineer$\n$job_giga_birch_structure_engineer_effect_desc$"
+  mod_job_giga_birch_structure_manager_add:99 "Деятельность: $job_giga_birch_structure_manager$"
+  mod_job_giga_birch_structure_manager_per_pop:99 "§G+1§! $job_giga_birch_structure_manager$ как вид деятельности для $VALUE$ поселений"
+  mod_job_giga_birch_structure_manager_per_pop_short:99 "\n§G+1§! £mod_job_giga_birch_structure_manager_add£ для §Y$VALUE$§! £pop£"
+  
+  # Gestalt
+  job_giga_birch_structure_manager_drone:99 "Кластер-управления Островов"
+  job_giga_birch_structure_manager_drone_plural:99 "Кластера-управления Островов"
+  job_giga_birch_structure_manager_drone_desc:99 "Главный отдел всего Сердца Мира, эти кластеры дронов руководят командами меньших инженерных дронов в строительстве новых Островов."
+  job_giga_birch_structure_manager_drone_effect_desc:99 "£job_giga_birch_structure_manager_drone£ $job_giga_birch_structure_manager_drone_plural$ превращают £alloys£ §Y$alloys$§! и £energy£ §Y$energy$§! в £engineering_research£ §Y$engineering_research$§! и £unity£ §Y$unity$§!, противодействуют §Yбезработице§!, и предоставляют деятельность: £job_giga_birch_structure_engineer_drone£ $job_giga_birch_structure_engineer_drone$\n$job_giga_birch_structure_engineer_drone_effect_desc$"
+  mod_job_giga_birch_structure_manager_drone_add:99 "Деятельность: $job_giga_birch_structure_manager_drone$"
+  mod_job_giga_birch_structure_manager_drone_per_pop:99 "§G+1§! $job_giga_birch_structure_manager_drone$ как вид деятельности для $VALUE$ поселений"
+  mod_job_giga_birch_structure_manager_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_birch_structure_manager_drone_add£ для §Y$VALUE$§! £pop£"
+  
+  ########################################################################################################################################################
+  # Regular
+  job_giga_birch_structure_engineer:99 "Инженер Островов"
+  job_giga_birch_structure_engineer_plural:99 "Инженеры Островов"
+  job_giga_birch_structure_engineer_desc:99 "Являясь неотъемлемой частью команды с Сердца Мира, эти квалифицированные работники занимаются строительством массивных Островов."
+  job_giga_birch_structure_engineer_effect_desc:99 "£job_giga_birch_structure_engineer£ $job_giga_birch_structure_engineer_plural$ используют £consumer_goods£ §Y$consumer_goods$§! предоставляя £housing£ §Y$PLANET_HOUSING_TITLE$§! и £amenities£ §Yблага§!"
+  mod_job_giga_birch_structure_engineer_add:99 "Деятельность: $job_giga_birch_structure_engineer$"
+  mod_job_giga_birch_structure_engineer_per_pop:99 "§G+1§! $job_giga_birch_structure_engineer$ как вид деятельности для $VALUE$ поселений"
+  mod_job_giga_birch_structure_engineer_per_pop_short:99 "\n§G+1§! £mod_job_giga_birch_structure_engineer_add£ для §Y$VALUE$§! £pop£"
+  
+  # Gestalt
+  job_giga_birch_structure_engineer_drone:99 "Дрон Островов"
+  job_giga_birch_structure_engineer_drone_plural:99 "Дроны Островов"
+  job_giga_birch_structure_engineer_drone_desc:99 "Являясь неотъемлемой частью системы с Сердца Мира, эти специализированные дроны занимаются строительством массивных Островов."
+  job_giga_birch_structure_engineer_drone_effect_desc:99 "£job_giga_birch_structure_engineer_drone£ $job_giga_birch_structure_engineer_drone_plural$ используют £minerals£ §Y$minerals$§! предоставляя £housing£ §Y$PLANET_HOUSING_TITLE$§! и £amenities£ §Yблага§!"
+  mod_job_giga_birch_structure_engineer_drone_add:99 "Деятельность: $job_giga_birch_structure_engineer_drone$"
+  mod_job_giga_birch_structure_engineer_drone_per_pop:99 "§G+1§! $job_giga_birch_structure_engineer_drone$ как вид деятельности для $VALUE$ поселений"
+  mod_job_giga_birch_structure_engineer_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_birch_structure_engineer_drone_add£ для §Y$VALUE$§! £pop£"
+  
+  ########################################################################################################################################################
+  # Regular
+  job_giga_birch_orykta_manager:99 "Управляющий Орикта"
+  job_giga_birch_orykta_manager_plural:99 "Управляющие Орикта"
+  job_giga_birch_orykta_manager_desc:99 "Эксперты по оборудованию, предназначенному для взаимодействия со сверхмассивной черной дырой под миром Берч, эти квалифицированные администраторы следят за тем, чтобы наши операции по добыче работали с полной эффективностью."
+  job_giga_birch_orykta_manager_effect_desc:99 "£job_giga_birch_orykta_manager£ $job_giga_birch_orykta_manager_plural$ превращают £consumer_goods£ §Y$consumer_goods$§! в £physics_research£ £engineering_research£ §Yочки исследований§! и повышают $giga_r_energy$$giga_r_minerals$ §Yпроизводительность§! £job_technician£ Техников и £job_miner£ Шахтеров"
+  mod_job_giga_birch_orykta_manager_add:99 "Деятельность: $job_giga_birch_orykta_manager$"
+  mod_job_giga_birch_orykta_manager_per_pop:99 "§G+1§! $job_giga_birch_orykta_manager$ как вид деятельности для $VALUE$ поселений"
+  mod_job_giga_birch_orykta_manager_per_pop_short:99 "\n§G+1§! £mod_job_giga_birch_orykta_manager_add£ для §Y$VALUE$§! £pop£"
+  
+  job_giga_birch_orykta_worker:99 "Рабочий Орикта"
+  job_giga_birch_orykta_worker_plural:99 "Рабочие Орикта"
+  job_giga_birch_orykta_worker_desc:99 "Рабочие, обученные для укомплектования объектов Острова Орикта, но пока без конкретной работы."
+  job_giga_birch_orykta_worker_effect_desc:99 "£job_giga_birch_orykta_worker£ $job_giga_birch_orykta_worker_plural$ производят £energy£ §Y$energy$§! и £minerals£ §Y$minerals$§! в небольшом количестве, но могут быть специализированы при строительстве секторов $giga_birch_orykta_name$"
+  mod_job_giga_birch_orykta_worker_add:99 "Деятельность: $job_giga_birch_orykta_worker$"
+  mod_job_giga_birch_orykta_worker_per_pop:99 "§G+1§! $job_giga_birch_orykta_worker$ как вид деятельности для $VALUE$ поселений"
+  mod_job_giga_birch_orykta_worker_per_pop_short:99 "\n§G+1§! £mod_job_giga_birch_orykta_worker_add£ для §Y$VALUE$§! £pop£"
+  
+  # Gestalt
+  job_giga_birch_orykta_manager_drone:99 "Кластер-управления Орикта"
+  job_giga_birch_orykta_manager_drone_plural:99 "Кластера-управления Орикта"
+  job_giga_birch_orykta_manager_drone_desc:99 "Эксперты по оборудованию, разработанному для взаимодействия со сверхмассивной черной дырой под миром Берч, эти специально созданные кластеры дронов следят за тем, чтобы наши операции по добыче работали с полной эффективностью."
+  job_giga_birch_orykta_manager_drone_effect_desc:99 "£job_giga_birch_orykta_manager_drone£ $job_giga_birch_orykta_manager_drone_plural$ превращают £energy£ §Y$energy$§! в £physics_research£ £engineering_research£ §Yочки исследований§! и повышают $giga_r_energy$$giga_r_minerals$ §Yпроизводительность§! £job_technician_drone£ Дронов-техников и £job_mining_drone£ Добывающих дронов"
+  mod_job_giga_birch_orykta_manager_drone_add:99 "Деятельность: $job_giga_birch_orykta_manager_drone$"
+  mod_job_giga_birch_orykta_manager_drone_per_pop:99 "§G+1§! $job_giga_birch_orykta_manager_drone$ как вид деятельности для $VALUE$ поселений"
+  mod_job_giga_birch_orykta_manager_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_birch_orykta_manager_drone_add£ для §Y$VALUE$§! £pop£"
+  
+  job_giga_birch_orykta_worker_drone:99 "Дрон Орикта"
+  job_giga_birch_orykta_worker_drone_plural:99 "Дроны Орикта"
+  job_giga_birch_orykta_worker_drone_desc:99 "Дроны, которым поручено укомплектования объектов Острова Орикта, но пока без конкретной работы."
+  job_giga_birch_orykta_worker_drone_effect_desc:99 "£job_giga_birch_orykta_worker_drone£ $job_giga_birch_orykta_worker_drone_plural$ производят £energy£ §Y$energy$§! и £minerals£ §Y$minerals$§! в небольшом количестве, но могут быть специализированы при строительстве секторов $giga_birch_orykta_name$"
+  mod_job_giga_birch_orykta_worker_drone_add:99 "Деятельность: $job_giga_birch_orykta_worker_drone$"
+  mod_job_giga_birch_orykta_worker_drone_per_pop:99 "§G+1§! $job_giga_birch_orykta_worker_drone$ как вид деятельности для $VALUE$ поселений"
+  mod_job_giga_birch_orykta_worker_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_birch_orykta_worker_drone_add£ для §Y$VALUE$§! £pop£"
+  
+  ########################################################################################################################################################
+  # Regular
+  job_giga_birch_ktisma_manager:99 "Управляющий Ктисма"
+  job_giga_birch_ktisma_manager_plural:99 "Управляющие Ктисма"
+  job_giga_birch_ktisma_manager_desc:99 "Смотрители за всей промышленностью, административный персонал Острова Ктисма следит за тем, чтобы наши заводы работали как часы."
+  job_giga_birch_ktisma_manager_effect_desc:99 "£job_giga_birch_ktisma_manager£ $job_giga_birch_ktisma_manager_plural$ производят £consumer_goods£ §Y$consumer_goods$§! в £engineering_research£ §Yочки исследований§!, увеличивают £mod_planet_building_build_speed_mult£ §Y$MOD_PLANET_BUILDING_BUILD_SPEED_MULT$§!, и повышают $giga_r_alloys$$giga_r_cgs$ §Yпроизводительность§! £job_foundry£ Металлургов и [owner.GetArtisanIcon] Ремесленников"
+  mod_job_giga_birch_ktisma_manager_add:99 "Деятельность: $job_giga_birch_ktisma_manager$"
+  mod_job_giga_birch_ktisma_manager_per_pop:99 "§G+1§! $job_giga_birch_ktisma_manager$ как вид деятельности для $VALUE$ поселений"
+  mod_job_giga_birch_ktisma_manager_per_pop_short:99 "\n§G+1§! £mod_job_giga_birch_ktisma_manager_add£ для §Y$VALUE$§! £pop£"
+  
+  job_giga_birch_ktisma_worker:99 "Рабочий Ктисма"
+  job_giga_birch_ktisma_worker_plural:99 "Рабочие Ктисма"
+  job_giga_birch_ktisma_worker_desc:99 "Рабочие, обученные для укомплектования объектов Острова Ктисма, но пока без конкретной работы."
+  job_giga_birch_ktisma_worker_effect_desc:99 "£job_giga_birch_ktisma_worker£ $job_giga_birch_ktisma_worker_plural$ производят £alloys£ §Y$alloys$§! и £consumer_goods£ §Y$consumer_goods$§! в небольшом количестве, но могут быть специализированы при строительстве секторов building $giga_birch_ktisma_name$"
+  mod_job_giga_birch_ktisma_worker_add:99 "Деятельность: $job_giga_birch_ktisma_worker$"
+  mod_job_giga_birch_ktisma_worker_per_pop:99 "§G+1§! $job_giga_birch_ktisma_worker$ как вид деятельности для $VALUE$ поселений"
+  mod_job_giga_birch_ktisma_worker_per_pop_short:99 "\n§G+1§! £mod_job_giga_birch_ktisma_worker_add£ для §Y$VALUE$§! £pop£"
+  
+  # Gestalt
+  job_giga_birch_ktisma_manager_drone:99 "Кластер-управления Ктисма"
+  job_giga_birch_ktisma_manager_drone_plural:99 "Кластера-управления Ктисма"
+  job_giga_birch_ktisma_manager_drone_desc:99 "Смотрители за всей промышленностью, эти специализированные кластеры дронов следят за тем, чтобы наши заводы работали как часы."
+  job_giga_birch_ktisma_manager_drone_effect_desc:99 "£job_giga_birch_ktisma_manager_drone£ $job_giga_birch_ktisma_manager_drone_plural$ превращают £minerals£ §Y$minerals$§! в £engineering_research£ §Yочки исследования§!, увеличивают £mod_planet_building_build_speed_mult£ §Y$MOD_PLANET_BUILDING_BUILD_SPEED_MULT$§!, и повышают $giga_r_alloys$ §Yпроизводительность§! £job_foundry£ Металлургов"
+  job_giga_birch_ktisma_manager_drone_effect_desc_cgs:99 "£job_giga_birch_ktisma_manager_drone£ $job_giga_birch_ktisma_manager_drone_plural$ превращают £minerals£ §Y$minerals$§! в £engineering_research£ §Yочки исследования§!, увеличивают £mod_planet_building_build_speed_mult£ §Y$MOD_PLANET_BUILDING_BUILD_SPEED_MULT$§!, и повышают $giga_r_alloys$$giga_r_cgs$ §Yпроизводительность§! £job_foundry£ Металлургов и [owner.GetArtisanIcon] Ремесленников"
+  mod_job_giga_birch_ktisma_manager_drone_add:99 "Деятельность: $job_giga_birch_ktisma_manager_drone$"
+  mod_job_giga_birch_ktisma_manager_drone_per_pop:99 "§G+1§! $job_giga_birch_ktisma_manager_drone$ как вид деятельности для $VALUE$ поселений"
+  mod_job_giga_birch_ktisma_manager_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_birch_ktisma_manager_drone_add£ для §Y$VALUE$§! £pop£"
+  
+  job_giga_birch_ktisma_worker_drone:99 "Дрон Ктисма"
+  job_giga_birch_ktisma_worker_drone_plural:99 "Дроны Ктисма"
+  job_giga_birch_ktisma_worker_drone_desc:99 "Дроны, которым поручено укомплектования объектов Острова Ктисма, но пока без конкретной работы."
+  job_giga_birch_ktisma_worker_drone_effect_desc:99 "£job_giga_birch_ktisma_worker_drone£ $job_giga_birch_ktisma_worker_drone_plural$ производят £alloys£ §Y$alloys$§! в небольшом количестве, но могут быть специализированы при строительстве секторов $giga_birch_ktisma_name$"
+  mod_job_giga_birch_ktisma_worker_drone_add:99 "Деятельность: $job_giga_birch_ktisma_worker_drone$"
+  mod_job_giga_birch_ktisma_worker_drone_per_pop:99 "§G+1§! $job_giga_birch_ktisma_worker_drone$ как вид деятельности для $VALUE$ поселений"
+  mod_job_giga_birch_ktisma_worker_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_birch_ktisma_worker_drone_add£ для §Y$VALUE$§! £pop£"
+  
+  ########################################################################################################################################################
+  # Regular
+  job_giga_birch_physma_manager:99 "Управляющий Физма"
+  job_giga_birch_physma_manager_plural:99 "Управляющие Физма"
+  job_giga_birch_physma_manager_desc:99 "Администраторы экологических проектов, исследований и культурных вопросов, эти государственные служащие и их подчиненные объединяют общество на Острове Физма"
+  job_giga_birch_physma_manager_effect_desc:99 "£job_giga_birch_physma_manager£ $job_giga_birch_physma_manager_plural$ превращают £consumer_goods£ §Y$consumer_goods$§! в £society_research£ §Y$society_research$§! и £unity£ §Y$unity$§!, и повышают $giga_r_food$$giga_r_research$$giga_r_unity$ §Yпроизводительность§! £job_farmer£ Фермеров, [owner.GetResearcherIcon] Исследователей, и Бюрократов"
+  mod_job_giga_birch_physma_manager_add:99 "Деятельность: $job_giga_birch_physma_manager$"
+  mod_job_giga_birch_physma_manager_per_pop:99 "§G+1§! $job_giga_birch_physma_manager$ как вид деятельности для $VALUE$ поселений"
+  mod_job_giga_birch_physma_manager_per_pop_short:99 "\n§G+1§! £mod_job_giga_birch_physma_manager_add£ для §Y$VALUE$§! £pop£"
+  
+  job_giga_birch_physma_worker:99 "Рабочий Физма"
+  job_giga_birch_physma_worker_plural:99 "Рабочие Физма"
+  job_giga_birch_physma_worker_desc:99 "Рабочие, обученные для укомплектования объектов Острова Физма, но пока без конкретной работы."
+  job_giga_birch_physma_worker_effect_desc:99 "£job_giga_birch_physma_worker£ $job_giga_birch_physma_worker_plural$ производят £unity£ §Y$unity$§! и их $giga_r_food$$giga_r_minerals$$giga_r_energy$ §Yвспомогательные ресурсы§! в небольшом количестве, но могут быть специализированы при строительстве секторов $giga_birch_physma_name$"
+  mod_job_giga_birch_physma_worker_add:99 "Деятельность: $job_giga_birch_physma_worker$"
+  mod_job_giga_birch_physma_worker_per_pop:99 "§G+1§! $job_giga_birch_physma_worker$ как вид деятельности для $VALUE$ поселений"
+  mod_job_giga_birch_physma_worker_per_pop_short:99 "\n§G+1§! £mod_job_giga_birch_physma_worker_add£ для §Y$VALUE$§! £pop£"
+  
+  # Gestalt
+  job_giga_birch_physma_manager_drone:99 "Кластер-управления Физма"
+  job_giga_birch_physma_manager_drone_plural:99 "Кластера-управления Физма"
+  job_giga_birch_physma_manager_drone_desc:99 "Администраторы экологических проектов, исследований и целостности сигналов, эти кластеры дронов и их подчиненные обеспечивают бесперебойную работу Острова Физма."
+  job_giga_birch_physma_manager_drone_effect_desc:99 "£job_giga_birch_physma_manager_drone£ $job_giga_birch_physma_manager_drone_plural$ превращают их $giga_r_food$$giga_r_minerals$$giga_r_energy$ §Yвспомогательные ресурсы§! into £society_research£ §Y$society_research$§! and £unity£ §Y$unity$§!, and improve the $giga_r_food$$giga_r_research$$giga_r_unity$ §YProductivity§! of £job_agri_drone£ [owner.GetFarmerPlural], [owner.GetResearcherIcon] [owner.GetResearcherPlural], and [owner.GetAdministratorPluralWithIcon]"
+  mod_job_giga_birch_physma_manager_drone_add:99 "Деятельность: $job_giga_birch_physma_manager_drone$"
+  mod_job_giga_birch_physma_manager_drone_per_pop:99 "§G+1§! $job_giga_birch_physma_manager_drone$ как вид деятельности для $VALUE$ поселений"
+  mod_job_giga_birch_physma_manager_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_birch_physma_manager_drone_add£ для §Y$VALUE$§! £pop£"
+  
+  job_giga_birch_physma_worker_drone:99 "Дрон Физма"
+  job_giga_birch_physma_worker_drone_plural:99 "Дроны Физма"
+  job_giga_birch_physma_worker_drone_desc:99 "Дроны, которым поручено укомплектования объектов Острова Физма, но пока без конкретной работы."
+  job_giga_birch_physma_worker_drone_effect_desc:99 "£job_giga_birch_physma_worker_drone£ $job_giga_birch_physma_worker_drone_plural$ производят £unity£ §Y$unity$§! и их $giga_r_food$$giga_r_minerals$$giga_r_energy$ §Yвспомогательные ресурсы§! в небольшом количестве, но могут быть специализированы при строительстве секторов $giga_birch_physma_name$"
+  mod_job_giga_birch_physma_worker_drone_add:99 "Деятельность: $job_giga_birch_physma_worker_drone$"
+  mod_job_giga_birch_physma_worker_drone_per_pop:99 "§G+1§! $job_giga_birch_physma_worker_drone$ как вид деятельности для $VALUE$ поселений"
+  mod_job_giga_birch_physma_worker_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_birch_physma_worker_drone_add£ для §Y$VALUE$§! £pop£"
+  
+  ########################################################################################################################################################
+  # Regular
+  job_giga_dark_matter_weaver:99 "Ткач темной материи"
+  job_giga_dark_matter_weaver_plural:99 "Ткачи темной материи"
+  job_giga_dark_matter_weaver_desc:99 "Эти специалисты ткут темную материю из паров черной дыры."
+  job_giga_dark_matter_weaver_effect_desc:99 "£job_giga_dark_matter_weaver£ $job_giga_dark_matter_weaver_plural$ используют £energy£ §Y$energy$§! и £minerals£ §Y$minerals$§! для сбора £sr_dark_matter£ §YТемной материи§!"
+  mod_job_giga_dark_matter_weaver_add:99 "Деятельность: $job_giga_dark_matter_weaver$"
+  mod_job_giga_dark_matter_weaver_per_pop:99 "§G+1§! $job_giga_dark_matter_weaver$ как вид деятельности для $VALUE$ поселений"
+  mod_job_giga_dark_matter_weaver_per_pop_short:99 "\n§G+1§! £mod_job_giga_dark_matter_weaver_add£ для §Y$VALUE$§! £pop£"
+  
+  # Gestalt
+  job_giga_dark_matter_weaver_drone:99 "Дрон-ткач темной материи"
+  job_giga_dark_matter_weaver_drone_plural:99 "Дроны-ткачи темной материи"
+  job_giga_dark_matter_weaver_drone_desc:99 "Эти дроны ткут темную материю из паров черной дыры."
+  job_giga_dark_matter_weaver_drone_effect_desc:99 "£job_giga_dark_matter_weaver_drone£ $job_giga_dark_matter_weaver_drone_plural$ используют £energy£ §Y$energy$§! и £minerals£ §Y$minerals$§! для сбора £sr_dark_matter£ §YТемной материи§!"
+  mod_job_giga_dark_matter_weaver_drone_add:99 "Деятельность: $job_giga_dark_matter_weaver_drone$"
+  mod_job_giga_dark_matter_weaver_drone_per_pop:99 "§G+1§! $job_giga_dark_matter_weaver_drone$ как вид деятельности для $VALUE$ поселений"
+  mod_job_giga_dark_matter_weaver_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_dark_matter_weaver_drone_add£ для §Y$VALUE$§! £pop£"
+  
+  ########################################################################################################################################################
+  # Regular
+  job_giga_birch_resident:99 "Обслуживающий персонал мира Берч"
+  job_giga_birch_resident_plural:99 "Обслуживающий персонал мира Берч"
+  job_giga_birch_resident_desc:99 "В личном масштабе $name_birch$ предлагает фактически неограниченное пространство и ресурсы."
+  job_giga_birch_resident_effect_desc:99 "£job_giga_birch_resident£ $job_giga_birch_resident_plural$ используют £consumer_goods£ §Y$consumer_goods$§! для спокойной и приятной жизни"
+  mod_job_giga_birch_resident_add:99 "Деятельность: $job_giga_birch_resident$"
+  mod_job_giga_birch_resident_per_pop:99 "§G+1§! $job_giga_birch_resident$ как вид деятельности для $VALUE$ поселений"
+  mod_job_giga_birch_resident_per_pop_short:99 "\n§G+1§! £mod_job_giga_birch_resident_add£ для §Y$VALUE$§! £pop£"
+  
+  # Gestalt
+  job_giga_birch_resident_drone:99 "Обслуживающий дрон мира Берч"
+  job_giga_birch_resident_drone_plural:99 "Обслуживающие дроны мира Берч"
+  job_giga_birch_resident_drone_desc:99 "Теперь проблемы пространства и ресурсов для нас не существенны, так что мы можем поддерживать бездействующих дронов в рабочем состоянии без особых усилий."
+  job_giga_birch_resident_drone_effect_desc:99 "£job_giga_birch_resident_drone£ $job_giga_birch_resident_drone_plural$ используют £energy£ §Y$energy$§! для поддержания дронов в рабочем состоянии."
+  mod_job_giga_birch_resident_drone_add:99 "Деятельность: $job_giga_birch_resident_drone$"
+  mod_job_giga_birch_resident_drone_per_pop:99 "§G+1§! $job_giga_birch_resident_drone$ как вид деятельности для $VALUE$ поселений"
+  mod_job_giga_birch_resident_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_birch_resident_drone_add£ для §Y$VALUE$§! £pop£"
+  
+  ########################################################################################################################################################
+  # Regular
+  job_giga_birch_origin_trader:99 "Торговец Островов"
+  job_giga_birch_origin_trader_plural:99 "Торговцы Островов"
+  #job_giga_birch_origin_trader_desc:99 "Traders who live within the borders of the [giga_birch_expedition_2_country_@this.GetName]"
+  job_giga_birch_origin_trader_desc:99 "Предприниматели, которые работают с местными торговыми партнерами."
+  job_giga_birch_origin_trader_effect_food_desc:99 "£job_giga_birch_origin_trader£ $job_giga_birch_origin_trader_plural$ превращают £food£ §Y$food$§! в £mod_trade_value_add£ §Y$TRADE_VALUE$§!"
+  job_giga_birch_origin_trader_effect_minerals_desc:99 "£job_giga_birch_origin_trader£ $job_giga_birch_origin_trader_plural$ превращают £minerals£ §Y$minerals$§! в £mod_trade_value_add£ §Y$TRADE_VALUE$§!"
+  mod_job_giga_birch_origin_trader_add:99 "Деятельность: $job_giga_birch_origin_trader$"
+  mod_job_giga_birch_origin_trader_per_pop:99 "§G+1§! $job_giga_birch_origin_trader$ как вид деятельности для $VALUE$ поселений"
+  mod_job_giga_birch_origin_trader_per_pop_short:99 "\n§G+1§! £mod_job_clerk_add£ для §Y$VALUE$§! £pop£"
+  
+  # Gestalt
+  job_giga_birch_origin_trader_drone:99 "Торговый дрон Островов"
+  job_giga_birch_origin_trader_drone_plural:99 "Торговые дроны Островов"
+  job_giga_birch_origin_trader_drone_desc:99 "Эти дроны поддерживают торговое партнерство с нашими земными соседями."
+  job_giga_birch_origin_trader_drone_effect_food_desc:99 "£job_giga_birch_origin_trader_drone£ $job_giga_birch_origin_trader_drone_plural$ обменивают £food£ §YПищу§! на £energy£ §Y$energy$§!"
+  job_giga_birch_origin_trader_drone_effect_minerals_desc:99 "£job_giga_birch_origin_trader_drone£ $job_giga_birch_origin_trader_drone_plural$ обменивают £minerals£ §Y$minerals$§! на £energy£ §Y$energy$§!"
+  mod_job_giga_birch_origin_trader_drone_add:99 "Деятельность: $job_giga_birch_origin_trader_drone$"
+  mod_job_giga_birch_origin_trader_drone_per_pop:99 "§G+1§! $job_giga_birch_origin_trader_drone$ как вид деятельности для $VALUE$ поселений"
+  mod_job_giga_birch_origin_trader_drone_per_pop_short:99 "\n§G+1§! £mod_job_clerk_add£ для §Y$VALUE$§! £pop£"
+  
+  ################
+  ### Deposits ###
+  ################
+  
+  d_giga_birch_mechanics:99 "Основные системы мира Берч"
+  d_giga_birch_mechanics_desc:99 "Основные системы этого колоссального сооружения работают, как отлаженный, совершенный механизм."
+  d_giga_birch_mechanics_tooltip:99 "Эта планетарная особенность управляет многими игровыми функциями мира Берч и необходима для его нормальной работы."
+  
+  # origin insula stuff
+  
+  d_giga_birch_origin_home_insula:99 "Остров происхождение"
+  d_giga_birch_origin_home_insula_desc:99 "Колыбель цивилизации."
+  
+  d_giga_birch_origin_home_insula_restored:99 "Остров происхождение"
+  d_giga_birch_origin_home_insula_restored_desc:99 "Когда-то этот регион был колыбелью цивилизации, теперь же - природный заповедник."
+  
+  d_giga_birch_origin_home_farms:99 "Золотые поля"
+  d_giga_birch_origin_home_farms_desc:99 "Лучшие сельскохозяйственные земли, эта богатая и плодородная долина издавна давала щедрые урожаи."
+  
+  d_giga_birch_origin_home_catalytic_farms:99 "Минерализованные почвы"
+  d_giga_birch_origin_home_catalytic_farms_desc:99 "Туннелирование в основании Бездонной горы позволило нам откачать часть жижи и значительно расширить наши пахотные земли."
+  
+  d_giga_birch_origin_home_mines:99 "Бездонная гора"
+  d_giga_birch_origin_home_mines_desc:99 "Древние записи рассказывают о горе, возвышающейся до небес и изобилующей неисчерпаемыми минеральными богатствами. Современный анализ показывает, что она возникла в результате разрыва канала в системе иловых дождей сооружения, где минеральная суспензия постоянно выталкивала поверхность вверх и затвердевала в течение многих лет."
+  
+  d_giga_birch_origin_home_lithoid_mines:99 "Silt-rain Traps"
+  d_giga_birch_origin_home_lithoid_mines_desc:99 "Обширные районы, окруженные мелководными дамбами, позволяют нам концентрировать иловый дождь, который будет частично стекать в другие регионы. Сокращение пополнения эродированных почв ниже по течению считается приемлемой ценой за дополнительные минералы."
+  
+  d_giga_birch_origin_home_generators:99 "Генераторные установки"
+  d_giga_birch_origin_home_generators_desc:99 "Доступное топливо и благоприятные условия для строительства электростанций."
+  
+  d_giga_birch_origin_home_machine_generators:99 "Газовые месторождения"
+  d_giga_birch_origin_home_machine_generators_desc:99 "Обильные месторождения газа предоставляют широкие возможности для производства энергии."
+  
+  d_giga_birch_origin_home_labs:99 "Древние руины"
+  d_giga_birch_origin_home_labs_desc:99 "Внимательно изученные нашими археологами, эти руины дали нам первые намеки на истинную природу сооружения."
+  
+  # expedition rewards
+  
+  d_giga_birch_expedition_1_factory:99 "Заброшенное поселение - фабрика"
+  d_giga_birch_expedition_1_factory_desc:99 "Остатки города, принадлежащего неизвестной цивилизации. Мы воспользовались древней инфраструктурой в собственных целях."
+  
+  d_giga_birch_expedition_1_miners:99 "Заброшенное поселение - переработка"
+  d_giga_birch_expedition_1_miners_desc:99 "Остатки города, принадлежащего неизвестной цивилизации. Мы перерабатываем древнюю инфраструктуру в собственных целях."
+  
+  d_giga_birch_expedition_1_technicians:99 "Заброшенное поселение - электростанция"
+  d_giga_birch_expedition_1_technicians_desc:99 "Остатки города, принадлежащего неизвестной цивилизации. Мы воспользовались древней инфраструктурой в собственных целях."
+  
+  d_giga_birch_expedition_1_farmers:99 "Заброшенное поселение - фермы"
+  d_giga_birch_expedition_1_farmers_desc:99 "Остатки города, принадлежащего неизвестной цивилизации. Мы воспользовались древней инфраструктурой в собственных целях."
+  
+  d_giga_birch_expedition_1_restored:99 "Заброшенное поселение"
+  d_giga_birch_expedition_1_restored_desc:99 "Останки города, принадлежащего неизвестной цивилизации."
+  
+  
+  d_giga_birch_expedition_2_exterminate:99 "Местная цивилизация - Безмолвные руины"
+  d_giga_birch_expedition_2_exterminate_desc:99 "Земли цивилизации, рожденной на мире Берч, теперь безмолвные после их полного уничтожения."
+  
+  d_giga_birch_expedition_2_trade:99 "Местная цивилизация - Торговый пост"
+  d_giga_birch_expedition_2_trade_desc:99 "Земли цивилизации, рожденной на мире Берч, которая занимается торговлей с чужаками."
+  
+  d_giga_birch_expedition_2_integrate:99 "Местная цивилизация - полуавтономный регион"
+  d_giga_birch_expedition_2_integrate_desc:99 "Земли цивилизации, рожденной на мире Берч, полуавтономной после ее интеграции."
+  
+  d_giga_birch_expedition_2_conquer:99 "Местная цивилизация - полуавтономный регион"
+  d_giga_birch_expedition_2_conquer_desc:99 "Земли цивилизации, рожденной на мире Берч, полуавтономной после ее завоевания."
+  
+  d_giga_birch_expedition_2_sanctuary:99 "Местная цивилизация - Санктуарий"
+  d_giga_birch_expedition_2_sanctuary_desc:99 "Земли цивилизации, рожденной на мире Берч, теперь это обширное убежище для органиков."
+  
+  d_giga_birch_expedition_2_restored:99 "Местная цивилизация"
+  d_giga_birch_expedition_2_restored_desc:99 "Земли цивилизации, рожденной на мире Берч."
+  
+  
+  d_giga_birch_expedition_3:99 "Форпост промышленного уровня"
+  d_giga_birch_expedition_3_desc:99 "Исследовательский форпост у шпиля, соединяющего этот заполненный машинами слой сооружения с домом."
+  
+  d_giga_birch_expedition_3_restored:99 "Форпост мусорщиков"
+  d_giga_birch_expedition_3_restored_desc:99 "На этом форпосте живут исследователи, которые извлекают технику из окружающих древних промышленных руин."
+  
+  
+  d_giga_birch_expedition_4:99 "Древний промышленный комплекс"
+  d_giga_birch_expedition_4_desc:99 "Древние авто-кузницы вновь загремят огнем, значительно расширяя наши промышленные возможности."
+  
+  d_giga_birch_expedition_4_restored:99 "Восстановленный промышленный комплекс"
+  d_giga_birch_expedition_4_restored_desc:99 "Древние кузницы вернули былое могущество, начиная выпускать бесконечный поток материалов."
+  
+  
+  d_giga_birch_expedition_5:99 "Региональный центр управления"
+  d_giga_birch_expedition_5_desc:99 "Система командования и управления для подсекций сооружения, включая столицу."
+  
+  d_giga_birch_expedition_5_restored:99 "Региональный центр управления"
+  d_giga_birch_expedition_5_restored_desc:99 "Система командования и управления для подсекций сооружения, включая столицу."
+  
+  
+  d_giga_birch_expedition_6_farm:99 "Форпост в арктических пещерах - ферма лишайников"
+  d_giga_birch_expedition_6_farm_desc:99 "Пещеры, защищенные от суровых условий арктического слоя, в настоящее время выращивают питательный сорт местного лишайника."
+  
+  d_giga_birch_expedition_6_generator:99 "Форпост в арктических пещерах - газовые скважины"
+  d_giga_birch_expedition_6_generator_desc:99 "Пещеры, защищенные от суровых условий арктического слоя, с электростанцией, работающей на местной газовой скважине."
+  
+  d_giga_birch_expedition_6_restored:99 "Поселение в арктических пещерах"
+  d_giga_birch_expedition_6_restored_desc:99 "Поселение в защищенных пещерах арктического слоя."
+  
+  
+  d_giga_birch_expedition_7:99 "Затонувшая обсерватория"
+  d_giga_birch_expedition_7_desc:99 "Древний научный объект, похоже, посвященный изучению цивилизаций, развивающихся на арктическом слое."
+  
+  d_giga_birch_expedition_7_restored:99 "Затонувшая обсерватория"
+  d_giga_birch_expedition_7_restored_desc:99 "Древний научный объект, отремонтированная и переоборудованная в наших собственных целях."
+  
+  
+  d_giga_birch_expedition_8:99 "Главный центр управления"
+  d_giga_birch_expedition_8_desc:99 "Главная система управления всем сооружением, этот объект испытывает недостаток энергии и в настоящее время не в состоянии задействовать всю свою мощь."
+  
+  d_giga_birch_expedition_8_restored:99 "Главный центр управления"
+  d_giga_birch_expedition_8_restored_desc:99 "Этот крупный административный центр сооружения является регулятором многих ее систем."
+  
+  
+  d_giga_birch_expedition_9_energy:99 "Аппарат переработки - выработка энергии"
+  d_giga_birch_expedition_9_energy_desc:99 "Огромная структура над горизонтом событий сверхмассивной черной дыры в ядре Сооружения. Недавние ремонтные работы были направлены на выработку энергии."
+  
+  d_giga_birch_expedition_9_minerals:99 "Аппарат переработки - добыча минералов"
+  d_giga_birch_expedition_9_minerals_desc:99 "Огромная структура над горизонтом событий сверхмассивной черной дыры в ядре Сооружения. Недавние ремонтные работы были направлены на добычу минералов."
+  
+  d_giga_birch_expedition_9_dark_matter:99 "Аппарат переработки - извлечение темной материи"
+  d_giga_birch_expedition_9_dark_matter_desc:99 "Огромная структура над горизонтом событий сверхмассивной черной дыры в ядре Сооружения. Недавние ремонтные работы были направлены на извлечение темной материи."
+  
+  d_giga_birch_expedition_9_restored:99 "Аппарат переработки"
+  d_giga_birch_expedition_9_restored_desc:99 "Огромные структуры над горизонтом событий сверхмассивной черной дыры в ядре сооружения, обеспечивающие сооружение фактически неограниченным сырьем."
+  
+  # edge of eternity
+  
+  d_giga_birch_edge_of_eternity:99 Океанический аркологический комплекс"
+  d_giga_birch_edge_of_eternity_desc:99 "Серия огромных сооружений, построенных на дне океана, обеспечивающих пригодные для жизни условия на этом полностью покрытом водой мире."
+  
+  d_giga_birch_edge_of_eternity_ruins:99 "£blocker£ Развалины инфраструктуры"
+  d_giga_birch_edge_of_eternity_ruins_desc:99 "Столетия суровой погоды без технического обслуживания привели эти платформы в состояние упадка."
+  
+  
+  d_giga_birch_edge_of_eternity_farms:99 "Морские фермы"
+  d_giga_birch_edge_of_eternity_farms_desc:99 "Многоуровневые атриумы, где процветает съедобная морская пища и обитает разнообразная диковинная жизнь."
+  
+  d_giga_birch_edge_of_eternity_farms_blocker:99 "£blocker£ Враждебная морская жизнь"
+  d_giga_birch_edge_of_eternity_farms_blocker_desc:99 "Опасные существа скрываются в морской траве, мешая сбору урожая."
+  d_giga_birch_edge_of_eternity_farms_blocker_condition:99 "§R$MISSING_TECHNOLOGY$: $tech_dangerous_wildlife$§!"
+  
+  
+  d_giga_birch_edge_of_eternity_generators:99 "Преобразователи энергии волн"
+  d_giga_birch_edge_of_eternity_generators_desc:99 "Машины, созданные для извлечения энергии из огромных волн, бушующих в океане."
+  
+  d_giga_birch_edge_of_eternity_generators_blocker:99 "£blocker£ Массив замерзших волн"
+  d_giga_birch_edge_of_eternity_generators_blocker_desc:99 "Твердый лед не позволяет этим преобразователям энергии волн выполнять свою работу."
+  d_giga_birch_edge_of_eternity_generators_blocker_condition:99 "§R$MISSING_TECHNOLOGY$: $tech_massive_glacier$§!"
+  
+  
+  d_giga_birch_edge_of_eternity_mines:99 "Добыча минералов на морском дне"
+  d_giga_birch_edge_of_eternity_mines_desc:99 "Бурение морского дна для извлечения скрытых минералов."
+  
+  d_giga_birch_edge_of_eternity_mines_blocker:99 "£blocker£ Рухнувшие вулканические туннели"
+  d_giga_birch_edge_of_eternity_mines_blocker_desc:99 "Вулканическая активность вызвала обрушение этих туннелей, теперь этот район небезопасен для работы"
+  d_giga_birch_edge_of_eternity_mines_blocker_condition:99 "§R$MISSING_TECHNOLOGY$: $tech_volcano$§!"
+  
+  ##############
+  ### Traits ###
+  ##############
+  
+  mod_pc_birch_habitability:0 "Приспособленность - мир Берча"
+  trait_pc_birch_preference:0 "Предпочтительный мир Берча"
+  trait_pc_birch_preference_desc:0 "§L$pc_birch$ настолько обширен, что включает в себя множество различных биомов.§!"
+  
+  mod_pc_origin_birch_habitability:99 "$mod_pc_birch_habitability$"
+  trait_pc_origin_birch_preference:99 "Предпочтительный древний мир Берча"
+  trait_pc_origin_birch_preference_desc:99 ""
+  
+  mod_pc_origin_dummy_birch_habitability:99 "$mod_pc_birch_habitability$"
+  trait_pc_origin_dummy_birch_preference:99 "Dummy Birch World Preference (Вы не должны это видеть)"
+  trait_pc_origin_dummy_birch_preference_desc:99 "$trait_pc_birch_preference_desc$"
+  
+  mod_pc_giga_edge_of_eternity_habitability:99 "Приспособленность - $pc_giga_edge_of_eternity$"
+  trait_pc_giga_edge_of_eternity_preference:99 "Предпочтительный $pc_giga_edge_of_eternity$"
+  trait_pc_giga_edge_of_eternity_preference_desc:99 "$trait_pc_ocean_preference_desc$"
+  
+  ##############
+  ### Edicts ###
+  ##############
+  
+  edict_giga_migrate_birch_world:0 "Мир Берч: Великая миграция"
+  edict_giga_migrate_birch_world_desc:0 "Огромные просторы Мира Берч открывают безграничные возможности. Мы должны поощрять безработное поселения перебираться туда."
+  edict_giga_migrate_birch_world_tooltip:0 "Автоматическое переселение будет §Yзначительно§! чаще выбирать мир Берч в качестве места назначения.\nДополнительные рабочие места будут оставлены открытыми для поощрения миграции."
+  
+  #####################
+  ### Megastructure ###
+  #####################
+  
+  giga_mega.402.name:0 "Галактическое ядро"
+  giga_mega.402.desc:0 "С тех пор, как наш вид совершил космический полет и отправился к звездам, один аспект галактической географии ускользнул от астрономов и физиков: галактическое ядро. Действительно, до сих пор ядро ​​было полностью отделено от остальной галактики. Однако новые достижения в области технологий картографирования гиперпространства привели наших ученых к мысли, что ядро может быть доступно с помощью сети гиперкоридоров, если удастся выяснить, где именно находятся слабые точки прорыва гиперпространства.\nОсобый проект был подготовлен для поиска и использования этих точек, чтобы получить доступ к галактическому ядру. По завершении будут созданы несколько гиперкоридоров, ведущих к ядру. Ученый предупреждают, что использовать их смогут и наши соперники. Однако невозможно предсказать, где в конечном итоге окажутся гиперкоридоры."
+  giga_mega.402.a:0 "Принято."
+  
+  giga_mega.403.name:0 "Гиперкоридоры галактического ядра обнаружены!"
+  giga_mega.403.desc:0 "Отличные новости! После интенсивных исследований и составления карт наши ученые объявили, что были обнаружены точки прорыва в гиперпространстве, ведущие к центральному скоплению! Наши исследовательские группы использовали дальний тахионный луч, чтобы удаленно открывать эти точки прорыва, создавая тем самым новые гиперкоридоры. Это означает, что ядро ​​теперь доступно (как для нас, так и для всех остальных), и наши исследователи настоятельно рекомендуют отправить судно для его исследования."
+  giga_mega.403.a:0 "Невероятно!"
+  giga_mega.403.a.tooltip:0 "Теперь можно получить доступ к Галактическому ядру"
+  
+  giga_dialog.4101.name:0 "Сверхмассивная"
+  giga_dialog.4101.desc:0 "После тяжелого путешествия наш научный корабль наконец-то достиг центра нашей галактики.\nПри входе в систему команда была ошеломлена видом огромной §Yнеактивной сверхмассивной черной дыры§!.\n\nЭтот гигантский объект весит несколько миллиардов звездных масс и имеет диаметр в несколько сотен астрономических единиц. Также была замечена одинокая океаническая планета, вращавшаяся вокруг нее, и один из ученых предположил, что у нее наверняка будут гигантские волны из-за огромных приливных сил черной дыры.\nХотя пока это всего лишь предположение, некоторые из самых диких элементов в научном сообществе выдвинуть теорию о том, что вокруг этой черной дыры можно было бы построить массивную сферу, в которой могли бы жить квадриллионы живых существ."
+  giga_dialog.4101.a:0 "Потрясающе!"
+  
+  giga_dialog.4102.name:0 "Строительная площадка мира Берч завершена!"
+  giga_dialog.4102.desc:0 "Строительная площадка для будущего мира Берч завершена вокруг черной дыры в центре нашей галактики. Она будет служить плацдармом для начала строительства самого сооружения, которое будет представлять собой гигантскую оболочку из суперсплавов прямо над горизонтом событий, где гравитация пригодна для жизни."
+  giga_dialog.4102.a:0 "Отлично."
+  
+  giga_dialog.4103.name:0 "Экваториальный каркас мира Берч завершен!"
+  giga_dialog.4103.desc:0 "Первый шаг в создании мира Берч завершен. Мы построили массивное кольцо, которое обвивает черную дыру и будет служить основой для создания остального массивного каркаса сооружения."
+  giga_dialog.4103.a:0 "Превосходно."
+  
+  giga_dialog.4104.name:0 "Каркас мира Берч завершен!"
+  giga_dialog.4104.desc:0 "Каркас нашего мира Берч полностью завершен! Массивная конструкция окружают Черную дыру, и теперь мы должны приступить к самой трудной части: построению самой гигантской оболочки. Это будет долгая и трудная задача, но как только она будет завершена, мы получим доступ к бесконечному жизненному пространству."
+  giga_dialog.4104.a:0 "Мы приближаемся."
+  
+  giga_dialog.4105.name:0 "$name_birch$ завершен!"
+  giga_dialog.4105.desc:0 "Сегодня невероятный день в истории Галактики. Действительно, после десятилетий опасной работы мы завершили строительство абсолютно массивного мира Берч вокруг Галактического ядра. Эта массивная оболочка в настоящее время пуста, но ее безграничная площадь означает, что она может эффективно вместить бесконечное количество поселений при колонизации. С завершением этого проекта, мы определенно достигли вершины инженерии среды обитания, и это грандиозное сооружение, вероятно, затмит все другие мегасооружения, когда-либо построенные в галактической истории!\n\n§Y$name_birch$ будет автоматически получать больше слотов районов по мере роста поселений, вплоть до бесконечности.§!\n\nТеперь у нас есть указ начать §YВеликую миграцию§!, чтобы заселить этот огромный мир."
+  giga_dialog.4105.a:0 "Грандиозно!"
+  
+  birch_world_0:0 "Место для мира Берча"
+  birch_world_0_DESC:0 "Строительная площадка для будущего мира Берч, где будет располагаться необходимый персонал и инфраструктура, чтобы начать строительство огромной сферы вокруг сверхмассивной черной дыры."
+  birch_world_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_terastructure$ - $giga_list_category_habitable_mega$\nСтроит среду обитания вокруг §Yсверхмассивной черной дыры§! с §Yбесконечными районами§!\n§LГигантская ультимативная среда обитания, в которой может разместиться бесконечное количество населения.§!" #megalistentry BIRCH WORLD
+  birch_world_0_CONSTRUCTION_INFO_DELAYED:0 "$giga_list_additional_data$ - §Y+1 слот района§! для §Y100§! поселений. Районы мира Берч очень мощны и обеспечивают множество рабочих мест. Если включить мод §YAncient Caches of Technologies§! и открыть §Yсферы пустоты§!, мир Берча можно улучшить до §Yмира Войд-Берча§!, абсолютной среды обитания из всех существующих."
+ 
+  birch_world_1:0 "Экваториальный каркас мира Берч"
+  birch_world_1_DESC:0 "Это массивное кольцо окружает экватор черной дыры и является первым шагом на пути к завершению массивного каркаса мира Берч."
+  
+  birch_world_2:0 "Каркас мира Берч"
+  birch_world_2_DESC:0 "Будущий каркас мира Берч построен вокруг сверхмассивной черной дыры. Теперь мы можем приступить к созданию самой оболочки колоссального мира."
+  
+  birch_world_3:99 "$name_birch$"
+  birch_world_3_DESC:0 "Завершенный мир Берча, построенный вокруг сверхмассивной черной дыры. Он представляет собой не более чем металлическую оболочку над горизонтом событий, но обеспечивает нас бесконечным пространством."
+  
+  ####################
+  ### Technologies ###
+  ####################
+  
+  giga_tech_birch_world_1:0 "$name_birch$"
+  giga_tech_birch_world_1_desc:0 "$name_birch$, который лишь недавно был теоретической искусственной конструкцией обширной среды обитания, теперь же вполне реален. Построенный вокруг самой большой из черных дыр, этот просторный мир специально сконструирован для работы над горизонтом событий, при котором уровень гравитации сравним с гравитацией нашего родного мира."
+  
+  giga_tech_birch_world_2:0 "Конструкция Физма"
+  giga_tech_birch_world_2_desc:0 "Остров Физма - огромная земля, посвященная дикой природе. Это место сельского хозяйства, исследований и отдыха."
+  
+  giga_tech_birch_world_3:0 "Конструкция Ктизма"
+  giga_tech_birch_world_3_desc:0 "Остров Ктизма - огромная земля, посвященная созиданию. Это место обитания и промышленности."
+  
+  giga_tech_birch_world_4:0 "Конструкция Орикта"
+  giga_tech_birch_world_4_desc:0 "Жизнь на черной дыре означает, что мы можем использовать наш разуплотнитель материи и технологии темной материи для извлечения ресурсов с ее поверхности."
+  
+  ########################
+  ### Void Birch Stuff ###
+  ########################
+  
+  vsbw_begin:0 "Бесконечный простор"
+  vsbw_begin_desc:0 "Пришло время превратить этот мир Берча в идеальную среду обитания. Не должно быть полумер, вся его поверхность должна быть благоустроена самыми передовыми технологиями, известными нашей цивилизации."
+  pc_void_birch:0 "Сверхмассивный мир Войд-Берча"
+  pc_void_birch_desc:99 ""
+  pc_void_birch_adj:99 ""
+  mod_pc_void_birch_habitability:0 "Приспособленность - мир Берча"
+  trait_pc_void_birch_preference:0 "Предпочтительный мир Берча"
+  trait_pc_void_birch_preference_desc:99 "Превосходная среда обитания для нашего народа. Легендарная во всех смыслах этого слова."
+  sc_void_birch_built:99 "$pc_void_birch$"
+  
+  d_giga_void_birch_mechanics:99 "Основная система Войд-Берча"
+  d_giga_void_birch_mechanics_desc:99 "$d_giga_birch_mechanics_desc$"
+  
+  district_giga_birch_void_structure:99 "Сердце Мира - Альфа"
+  district_giga_birch_void_structure_desc:99 "Величайшие лидеры нашей империи собираются вместе на вершине этого чудесного сооружения, контролируя жизнь всего мира."
+  district_giga_birch_void_structure_plural:99 "$district_giga_birch_void_structure$"
+  mod_district_giga_birch_void_structure_max:99 "$district_giga_birch_void_structure_plural$: максимум"
+  
+  district_giga_birch_void_orykta:99 "Операции по извлечению - Альфа"
+  district_giga_birch_void_orykta_desc:99 "Мы будем эксплуатировать и исследовать эту гигантскую черную дыру, ибо мы были инаугурированы как властелины космоса. Горизонт событий и прочие примитивные понятия нас больше не волнуют."
+  district_giga_birch_void_orykta_plural:99 "$district_giga_birch_void_orykta$"
+  mod_district_giga_birch_void_orykta_max:99 "$district_giga_birch_void_orykta_plural$: максимум"
+  
+  district_giga_birch_void_ktisma:99 "Гиперкомплекс Нидавеллир - Альфа"
+  district_giga_birch_void_ktisma_desc:99 "Мы больше не связаны ограничениями физических ресурсов. Что мы хотим, то и получим."
+  district_giga_birch_void_ktisma_plural:99 "Гиперкомплексы Нидавеллир - Альфа"
+  mod_district_giga_birch_void_ktisma_max:99 "$district_giga_birch_void_ktisma_plural$: максимум"
+  
+  district_giga_birch_void_physma:99 "Комплекс 'Матрешка' - Альфа"
+  district_giga_birch_void_physma_desc:99 "Наша вселенная все еще хранит множество тайн, и наш долг - найти ответы. Мы всегда должны продвигать нашу цивилизацию вперед, чтобы не застопориться и не пойти по стопам угасших империй."
+  district_giga_birch_void_physma_plural:99 "Комплексы 'Матрешка' - Альфа"
+  mod_district_giga_birch_void_physma_max:99 "$district_giga_birch_void_physma_plural$: максимум"
+  
+  vsbw.1.title:0 "Сделано."
+  vsbw.1.desc:0 "После 20 лет напряженного гигамасштабного строительства он, наконец, завершен.\n[center_of_the_universe.GetName] был успешно преобразован в Небесную Войд сферу, охватывающую все гиперсооружение и тянущуюся на целый световой год.\n\nНекоторые могут назвать этот проект, который фактически создал самую большую и продвинутую среду обитания за всю историю галактики, безумием.\n\nНо они просто глупцы, потому что мы предпочитаем называть это тем, чем оно является на самом деле.\n\nАмбицией."
+  
+  vsbw.1.a:0 "Глазам больно."
+  
+  # shouldn't have to add these but here we are
+  mod_job_acot_enforcer_per_pop:99 "§G+1§! $job_acot_enforcer$ за каждые §Y$VALUE$§! поселений"
+  mod_job_acot_enforcer_per_pop_short:99 "\n§G+1§! £mod_job_acot_enforcer_add£ за каждые §Y$VALUE$§! £pop£"
+
+    mod_job_acot_enforcer_drone_per_pop:0 "§G+1§! $job_acot_enforcer_drone$ за каждые §Y$VALUE$§! поселений"
+    mod_job_acot_enforcer_drone_per_pop_short:0 "\n§G+1§! £mod_job_acot_enforcer_drone_add£ за каждые §Y$VALUE$§! £pop£"
+  
+  mod_job_acot_overseer_per_pop:99 "§G+1§! $job_acot_overseer$ за каждые §Y$VALUE$§! поселений"
+  mod_job_acot_overseer_per_pop_short:99 "\n§G+1§! £mod_job_acot_overseer_add£ за каждые §Y$VALUE$§! £pop£"
+
+    mod_job_acot_overseer_drone_per_pop:0 "§G+1§! $job_acot_overseer_drone$ за каждые §Y$VALUE$§! поселений"
+    mod_job_acot_overseer_drone_per_pop_short:0 "\n§G+1§! £mod_job_acot_overseer_drone_add£ за каждые §Y$VALUE$§! £pop£"
+
+    mod_job_acot_overseer_droid_per_pop:0 "§G+1§! $job_acot_overseer_droid$ за каждые §Y$VALUE$§! поселений"
+    mod_job_acot_overseer_droid_per_pop_short:0 "\n§G+1§! £mod_job_acot_overseer_droid_add£ за каждые §Y$VALUE$§! £pop£"
+  
+  
+  #########################################
+  ### Birch World Start ###################
+  #########################################
+  origin_birch:0 "Упадочный мир Берча"
+  origin_birch_desc:0 "Мировоззрение этой цивилизации было рухнуло в тот момент, когда удар астероида пробил дыру в их небе. Осознав, что их мир - это огромное и древнее мегасооружение, они обратились внутрь себя в поисках способа спасти свой разрушающийся дом."
+  origin_birch_effects:0 "- Родной мир - §H$pc_origin_birch$§! в §HГалактическом ядре§!.\n- §HГалактическое ядро§! открыто со старта.\n- Начинаете с ситуацией: §H\"$giga_situation_birch_origin$\"§!.\n- Уникальные §H$district_giga_origin_birch_lab_plural$§! на родном мире, которые можно открыть через §Hисследование§!.\n- Открывает мощные модификаторы для родного мира через §Hисследование§!.\n- §H$pc_origin_birch$§! можно отремонтировать, открывая специальные районы §Hмира Берч§! £district£ §HИнсула§! и §Hсектора§!.\n- Предпочтительная пригодность - §H$trait_pc_birch_preference$§!, поэтому заселять другие объекты нежелательно.\n- Близлежащая планета может содержать ключ к дальнейшей колонизации.\n\n§RНесколько людей не могут использовать это происхождение. Любые империи с этим происхождением после первой будут иметь $origin_default$ вместо него.§!"
+  
+  #giga_birch_start_dialog:99 "We do not know what happened to our ancestors. Enemies, plague, civil war? They exist now as myths and legends, their knowledge and power lost. They somehow built this vast world around the black hole at the centre of our galaxy, now we live in the vast, echoing expanse designed to house a million times more people than are left.\nAs all but the last sections have fallen into disrepair and uselessness our people have been filled with a new sense of purpose: we must unite and take our place against in the stars, or we will be lost forever to history.\n\nOur first order of business will be to appoint a governor. Then we need to make sure we are working the right jobs:\n"
+  
+  #giga_start_screen_birch:99 "$giga_birch_start_dialog$We need a §Y$job_structure_manager$§! to stop the place falling to ruins.\n\nWe may have to make some people redundant from their preferred job to make that happen."
+  
+  #giga_start_screen_birch_hive:99 "$giga_birch_start_dialog$We need a §Y$job_structure_process$§! to stop the place falling to ruins."
+  
+  #giga_start_screen_birch_machine:99 "$giga_birch_start_dialog$We need a §Y$job_structure_process$§! to stop the place falling to ruins."
+  
+  giga_start_screen_birch:0 "Мы почти ничего не знаем о нашем древнем прошлом. Всего несколько веков назад мы думали, что [GetHomeWorldName] - это все, что необходимо: один прочный барьер под нами, другой, удерживаемый великими шпилями в тысяче километров над нами, и звезды, прочерчивающие путь по небу, чтобы обозначить день и ночь.\n\nТяжелый удар астероида разрушил наши представления, пробив дыру в верхнем барьере и показав нам вселенную снаружи. Используя ближайший шпиль в качестве опоры, мы построили башню, чтобы добраться до пролома и сделать первые неуверенные шаги в бескрайнюю галактику.\n\nДревние космические базы и забытые доки, которые мы обнаружили на внешней поверхности, изменили все. Когда наш первый космический корабль отправился наружу, мы поняли, что наш дом не был естественным. Скорее, это была колоссальная искусственная сфера, которая явно находилась в плачевном состоянии.\n\nНе обнаружив ответ сверху, мы планируем экспедицию вниз, чтобы найти истину нашего происхождения."
+  
+  giga_birch.title:0 "Обнаружены гиперкоридоры ядра"
+  giga_birch.desc:0 "Нам удалось снова заставить сенсоры работать должным образом и мы обнаружили, что мы не одни в центре галактики. Есть небольшое количество систем, которые были притянуты гравитацией черной дыры ближе, чем главное галактическое кольцо.\n\nВ настоящее время, похоже, нет никакой связи с остальной частью галактики. Судя по нашему переводу фрагментов журнала, мы полагаем, что гравитация черных дыр мешает связям между внутренней и внешними системами, и что любые гиперкоридоры между ними будут ослаблены и исчезнут без постоянной подпитки извне.\n\nМы запустили §Yособый проект§! чтобы найти и открыть их."
+  
+  giga_birch.003.name:0 "Галактическое ядро присоединяется к Галактике"
+  giga_birch.003.desc:0 "Из-за всплеска, обнаруженного всеми нашими приборами, между Галактическим Ядром и остальной частью Галактики открылись гиперкоридоры.\n\nМы можем уйти. Но что нас ждет?"
+  giga_birch.003.desc2:0 "Из-за всплеска, обнаруженного всеми нашими приборами, между Галактическим Ядром и остальной частью Галактики открылись гиперкоридоры.\n\nЭто не было вызвано нами, мы уверены! Галактика приближается."
+  
+  decision_giga_origin_birch_restore:99 "Восстановить $pc_birch$"
+  decision_giga_origin_birch_restore_desc:99 "Мы наконец-то можем вернуть нашему дому его былую славу."
+  decision_giga_origin_birch_restore_tooltip:99 "Существующие планетарные особенности и районы будут заменены."
+  
+  giga_birch_origin_motivated_explorers:99 "Вдохновленные исследователи"
+  giga_birch_origin_motivated_explorers_desc:99 "§LНовые открытия подняли стремление наших исследователей добраться до истины на невиданный уровень.§!"
+  giga_birch_origin_motivated_explorers_effect:99 "Ежемесячный прогресс исследования: §G+25%§!"
+  
+  giga_birch_origin_random_4:99 "Фабрика излишек"
+  giga_birch_origin_random_4_desc:99 "Древний мануфактурный комплекс на машинном слое работает даже лучше, чем ожидалось."
+  giga_birch_origin_random_4_alloys:99 "$giga_birch_origin_random_4$"
+  giga_birch_origin_random_4_alloys_desc:99 "$giga_birch_origin_random_4_desc$"
+  giga_birch_origin_random_4_goods:99 "$giga_birch_origin_random_4$"
+  giga_birch_origin_random_4_goods_desc:99 "$giga_birch_origin_random_4_desc$"
+  giga_birch_origin_random_4_supertensiles:99 "$giga_birch_origin_random_4$"
+  giga_birch_origin_random_4_supertensiles_desc:99 "$giga_birch_origin_random_4_desc$"
+  giga_birch_origin_random_4_engineering:99 "$giga_birch_origin_random_4$"
+  giga_birch_origin_random_4_engineering_desc:99 "$giga_birch_origin_random_4_desc$"
+  
+  giga_birch_origin_random_7:99 "Обсерватория 'Прозрение'"
+  giga_birch_origin_random_7_desc:99 "Древняя обсерватория на арктическом слое предоставляет нам ценную информацию."
+  giga_birch_origin_random_7_unity:99 "$giga_birch_origin_random_7$"
+  giga_birch_origin_random_7_unity_desc:99 "$giga_birch_origin_random_7_desc$"
+  giga_birch_origin_random_7_science:99 "$giga_birch_origin_random_7$"
+  giga_birch_origin_random_7_science_desc:99 "$giga_birch_origin_random_7_desc$"
+  giga_birch_origin_random_7_trade:99 "$giga_birch_origin_random_7$"
+  giga_birch_origin_random_7_trade_desc:99 "$giga_birch_origin_random_7_desc$"
+  
+  #########################################
+  ### Situations ##########################
+  #########################################
+  
+  stage_9:99 "Этап IX"
+  stage_10:99 "Этап X"
+  
+  giga_situation_birch_origin:99 "Исследуя родной мир"
+  giga_situation_birch_origin_type:99 "$giga_situation_birch_origin$"
+  giga_situation_birch_origin_desc:99 "Теперь нам ясно, что наш родной мир - это искусственное сооружение огромного масштаба, которое, не имеет своих хранителей. Мы должны узнать о нем больше, чтобы предотвратить любую возможность будущего экологического коллапса."
+  
+  giga_situation_birch_origin_monthly_change_tooltip:99 "Прогресс ситуации зависит от выбранного нами §Yподхода§!."
+  giga_situation_birch_origin_expedition_progress:99 "В настоящее время идет экспедиция"
+  giga_situation_birch_origin_final_push_progress:99 "Началось самовосстановление"
+  giga_situation_birch_origin_motivated_progress:99 "$giga_birch_origin_motivated_explorers$"
+  
+  giga_situation_birch_origin_stage_effects:99 "Наши исследователи отправляются в новую экспедицию."
+  
+  giga_situation_birch_origin_outcome:99 "Если все пойдет хорошо, мы научимся чинить системы [target.GetName] и возродим наш разрушающийся дом."
+  
+  giga_situation_birch_origin_approach_regular:99 "Стандартный бюджет"
+  giga_situation_birch_origin_approach_regular_desc:99 "Мы по-прежнему преданы делу открытия истинной природы сооружения, но мы также должны помнить внешних врагах."
+  giga_situation_birch_origin_approach_regular_effect:99 "Наши исследователи могут иногда делать дополнительные открытия в ходе выполнения своих обязанностей.\n "
+  
+  giga_situation_birch_origin_approach_extra:99 "Расширенный бюджет"
+  giga_situation_birch_origin_approach_extra_desc:99 "Дополнительные ресурсы и рабочая сила будут предоставлены нашим исследователям, даже в ущерб изучению космоса."
+  giga_situation_birch_origin_approach_extra_effect:99 "У наших исследователей будет значительно больше шансов сделать дополнительные открытия во время выполнения своих обязанностей.\n "
+  giga_situation_birch_origin_approach_extra_progress:99 "$giga_situation_birch_origin_approach_extra$"
+  
+  giga_situation_birch_origin_approach_frugal:99 "Ограниченный бюджет"
+  giga_situation_birch_origin_approach_frugal_desc:99 "Если возникнет необходимость, мы можем сократить финансирование экспедиции, чтобы сосредоточиться на других делах, но без достаточного оборудования наши исследователи не смогут охватить столько земли."
+  giga_situation_birch_origin_approach_frugal_effect:99 "Наши исследователи будут слишком ограничены в экспедициях, чтобы сделать дополнительные открытия.\n "
+  giga_situation_birch_origin_approach_frugal_progress:99 "$giga_situation_birch_origin_approach_frugal$"
+  
+  #########################################
+  
+  giga_situation_birch_expedition_3:99 "Возрождение шпиля"
+  giga_situation_birch_expedition_3_type:99 "$giga_situation_birch_expedition_3$"
+  giga_situation_birch_expedition_3_desc:99 "Наши [owner.GigaGetExplorerPlural] обнаружили спящий шпиль, который, похоже, достаточно цел для активации. Теперь мы должны дать ему достаточно энергии для пробуждения, если мы хотим продолжить путь к нижним слоям."
+  giga_situation_birch_expedition_3_outcome:99 "Наше путешествие продолжается."
+  giga_situation_birch_expedition_3_monthly_change_tooltip:99 "Прогресс ситуации зависит от выбранного нами §Yподхода§!."
+  giga_situation_birch_expedition_3_stage:99 "Накопление заряда"
+  giga_situation_birch_expedition_3_stage_desc:99 "Прогресс равен инвестированным энергокредитам. $giga_situation_birch_expedition_3_approach_supercharge$ менее эффективен и обеспечивает 1000 ежемесячного прогресса."
+  
+  giga_situation_birch_expedition_3_approach_halt:99 "Нет заряда"
+  giga_situation_birch_expedition_3_approach_halt_tooltip:99 "Прогресс со временем уменьшается."
+  giga_situation_birch_expedition_3_approach_halt_desc:99 "Без постоянного источника энергии шпиль будет оставаться бездействующим."
+  giga_situation_birch_expedition_3_approach_halt_progress:99 "Заряд не подается"
+  
+  giga_situation_birch_expedition_3_approach_power:99 "Подача заряда"
+  giga_situation_birch_expedition_3_approach_power_desc:99 "Постоянный поток энергии обеспечит безопасный и эффективный запуск шпиля."
+  giga_situation_birch_expedition_3_approach_power_progress:99 "Подается стандартный заряд"
+  
+  giga_situation_birch_expedition_3_approach_supercharge:99 "Суперзаряд"
+  giga_situation_birch_expedition_3_approach_supercharge_desc:99 "Питая шпиль гораздо более мощным источником энергии, мы сможем достичь цели быстрее, хотя и с меньшей эффективностью."
+  giga_situation_birch_expedition_3_approach_supercharge_progress:99 "Шпиль заряжается суперзарядом"
+  
+  #########################################
+  
+  giga_situation_birch_expedition_4:99 "Разжигая пламя промышленности"
+  giga_situation_birch_expedition_4_type:99 "$giga_situation_birch_expedition_4$"
+  giga_situation_birch_expedition_4_desc:99 "Восстановление бездействующих заводов на машинном уровне потребует значительных усилий, но результаты наверняка будут стоить затраченных усилий."
+  giga_situation_birch_expedition_4_outcome:99 "§Y$d_giga_birch_expedition_4$§! на [target.GetName] получит дополнительные виды деятельности в зависимости от выбранного нами §Yподхода§!."
+  giga_situation_birch_expedition_4_outcome_alloys:99 "§Y$d_giga_birch_expedition_4$§! на [target.GetName] получит дополнительные виды деятельности, включая те, которые производят £alloys£ §Y$alloys$§!."
+  giga_situation_birch_expedition_4_outcome_goods:99 "§Y$d_giga_birch_expedition_4$§! на [target.GetName] получит дополнительные виды деятельности, включая те, которые производят £consumer_goods£ §Y$consumer_goods$§!."
+  giga_situation_birch_expedition_4_outcome_supertensiles:99 "§Y$d_giga_birch_expedition_4$§! на [target.GetName] получит дополнительные виды деятельности, включая те, которые производят £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!."
+  giga_situation_birch_expedition_4_monthly_change_tooltip:99 "Прогресс ситуации зависит от выбранного нами §Yподхода§!."
+  giga_situation_birch_expedition_4_progress:99 "Выбранный подход"
+  
+  giga_situation_birch_expedition_4_stage_1:99 "Выбор назначения"
+  giga_situation_birch_expedition_4_stage_1_desc:99 "Проект все еще находится на ранней стадии, и, за определенную цену, мы можем изменить назначение объекта."
+  giga_situation_birch_expedition_4_stage_2:99 "Строительство завершено"
+  giga_situation_birch_expedition_4_stage_2_desc:99 "К этому моменту объект не может быть переоборудован без значительных и разрушительных усилий."
+  
+  giga_situation_birch_expedition_4_approach_choose:99 "Поверхностный ремонт"
+  giga_situation_birch_expedition_4_approach_choose_tooltip:99 "Выберите другой подход, чтобы начать восстановление. После второй стадии изменить подход будет нельзя."
+  giga_situation_birch_expedition_4_approach_choose_desc:99 "Готовы к работе, дайте задание."
+  
+  giga_situation_birch_expedition_4_approach_alloys:99 "Литейный завод"
+  giga_situation_birch_expedition_4_approach_alloys_tooltip:99 "После завершения строительства завод будет производить £alloys£ §Y$alloys$§!.\n "
+  giga_situation_birch_expedition_4_approach_alloys_desc:99 "Переоснащение предприятия для производства высококачественных сплавов, несомненно, улучшит наши возможности по производству космических кораблей."
+  
+  giga_situation_birch_expedition_4_approach_goods:99 "Гражданская фабрика"
+  giga_situation_birch_expedition_4_approach_goods_tooltip:99 "После завершения строительства завод будет производить £consumer_goods£ §Y$consumer_goods$§!.\n "
+  giga_situation_birch_expedition_4_approach_goods_desc:99 "Передача объекта под производство товаров массового спроса облегчит нагрузку на другие наши фабрики и улучшит условия жизни."
+  
+  giga_situation_birch_expedition_4_approach_supertensiles:99 "Молекулярная кузница"
+  giga_situation_birch_expedition_4_approach_supertensiles_tooltip:99 "После завершения строительства завод будет производить £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!.\n "
+  giga_situation_birch_expedition_4_approach_supertensiles_desc:99 "Использование предприятия для производства суперматериалов, несомненно, даст нам преимущество в области космического строительства."
+  
+  #########################################
+  
+  giga_situation_birch_expedition_7:99 "Перестройка затонувшей обсерватории"
+  giga_situation_birch_expedition_7_type:99 "$giga_situation_birch_expedition_7$"
+  giga_situation_birch_expedition_7_desc:99 "Ремонт затонувшей обсерватории в арктическом слое обещает значительно улучшить нашу вычислительную мощность, но потребует много усилий, чтобы вернуть ее в рабочее состояние."
+  giga_situation_birch_expedition_7_outcome:99 "§Y$d_giga_birch_expedition_7$§! на [target.GetName] получит дополнительные виды деятельности, а наши £district£ §Y$district_giga_origin_birch_lab_plural$§! будут производить дополнительные ресурсы в зависимости от выбранного нами §Yподхода§!."
+  giga_situation_birch_expedition_7_outcome_science:99 "§Y$d_giga_birch_expedition_7$§! на [target.GetName] получит дополнительные виды деятельности, а наши £district£ §Y$district_giga_origin_birch_lab_plural$§! будут производить дополнительные $giga_r_research$ §Yочки исследований§!."
+  giga_situation_birch_expedition_7_outcome_unity:99 "§Y$d_giga_birch_expedition_7$§! на [target.GetName] получит дополнительные виды деятельности, а наши £district£ §Y$district_giga_origin_birch_lab_plural$§! будут производить дополнительное £unity£ §Y$unity$§!."
+  giga_situation_birch_expedition_7_outcome_trade:99 "§Y$d_giga_birch_expedition_7$§! на [target.GetName] получит дополнительные виды деятельности, а наши £district£ §Y$district_giga_origin_birch_lab_plural$§! будут производить дополнительный £mod_trade_value_add£ §Y$TRADE_VALUE$§!."
+  giga_situation_birch_expedition_7_monthly_change_tooltip:99 "Прогресс ситуации зависит от выбранного нами §Yподхода§!."
+  giga_situation_birch_expedition_7_progress:99 "Выбранный подход"
+  
+  giga_situation_birch_expedition_7_stage_1:99 "Выбор назначения"
+  giga_situation_birch_expedition_7_stage_1_desc:99 "Проект все еще находится на ранней стадии, и, за определенную цену, мы можем изменить назначение объекта."
+  giga_situation_birch_expedition_7_stage_2:99 "Строительство завершено"
+  giga_situation_birch_expedition_7_stage_2_desc:99 "К этому моменту объект не может быть переоборудован без значительных и разрушительных усилий."
+  
+  giga_situation_birch_expedition_7_approach_choose:99 "Поверхностный ремонт"
+  giga_situation_birch_expedition_7_approach_choose_tooltip:99 "Выберите другой подход, чтобы начать ремонт. После второй стадии изменить подход будет нельзя."
+  giga_situation_birch_expedition_7_approach_choose_desc:99 "Готовы к работе, дайте задание."
+  
+  giga_situation_birch_expedition_7_approach_science:99 "Аналитическая матрица"
+  giga_situation_birch_expedition_7_approach_science_tooltip:99 "После завершения строительства обсерватория сосредоточится на помощи нам в наших $giga_r_research$ §Yисследованиях§!.\n "
+  giga_situation_birch_expedition_7_approach_science_desc:99 "[owner.GetResearchers] получат неоценимую помощь от обсерватории."
+  
+  giga_situation_birch_expedition_7_approach_unity:99 "Культурный архив"
+  giga_situation_birch_expedition_7_approach_unity_tooltip:99 "После завершения строительства обсерватория сосредоточится на архивировании и сохранении £unity£ §Yкультурной атрибутики§!.\n "
+  giga_situation_birch_expedition_7_approach_unity_desc:99 "Обсерватория построена для записи и сохранения истории. Теперь мы должны использовать ее для сохранения нашей собственной."
+  
+  giga_situation_birch_expedition_7_approach_trade:99 "Механизм финансового прогнозирования"
+  giga_situation_birch_expedition_7_approach_trade_tooltip:99 "После завершения строительства, обсерватория сосредоточится на предсказании колебаний на £mod_trade_value_add£ §Yфинансовом рынке§!.\n "
+  giga_situation_birch_expedition_7_approach_trade_desc:99 "Необработанные вычислительные мощности обсерватории могут быть использованы для создания более точных прогнозов рынка, что позволит нам лучше направлять нашу империю к процветанию."
+  
+  #########################################
+  
+  giga_situation_birch_expedition_9:99 "Возрождение гравитационного бура"
+  giga_situation_birch_expedition_9_type:99 "$giga_situation_birch_expedition_9$"
+  giga_situation_birch_expedition_9_desc:99 "Этот дремлющий массив может стать ключом к возрождению сооружения. Он также дает возможность настроить наше желаемое производство."
+  giga_situation_birch_expedition_9_outcome:99 "[target.GetName] получит планетарную особенность, предоставляющую различные виды деятельности и максимум районов в зависимости от выбранного нами §Yподхода§!."
+  giga_situation_birch_expedition_9_outcome_energy:99 "[target.GetName] получит планетарную особенность, предоставляющую различные виды деятельности и максимум районов, которые вырабатывают £energy£ §Y$energy$§!."
+  giga_situation_birch_expedition_9_outcome_minerals:99 "[target.GetName] получит планетарную особенность, предоставляющую различные виды деятельности и максимум районов, которые добывают £minerals£ §Y$minerals$§!."
+  giga_situation_birch_expedition_9_outcome_dark_matter:99 "[target.GetName] получит планетарную особенность, предоставляющую различные виды деятельности, которые производят £sr_dark_matter£ §YТемную материю§!, и смесь максимум районов."
+  giga_situation_birch_expedition_9_monthly_change_tooltip:99 "Прогресс ситуации зависит от выбранного нами §Yподхода§!."
+  giga_situation_birch_expedition_9_progress:99 "Выбранный подход"
+  
+  giga_situation_birch_expedition_9_stage_1:99 "Выбор назначения"
+  giga_situation_birch_expedition_9_stage_1_desc:99 "Проект все еще находится на ранней стадии, и, за определенную цену, мы можем изменить назначение объекта."
+  giga_situation_birch_expedition_9_stage_2:99 "Строительство завершено"
+  giga_situation_birch_expedition_9_stage_2_desc:99 "К этому моменту объект не может быть переоборудован без значительных и разрушительных усилий."
+  
+  giga_situation_birch_expedition_9_approach_choose:99 "Поверхностный ремонт"
+  giga_situation_birch_expedition_9_approach_choose_tooltip:99 "Выберите другой подход, чтобы начать ремонт. После второй стадии изменить подход будет нельзя."
+  giga_situation_birch_expedition_9_approach_choose_desc:99 "Готовы к работе, дайте задание."
+  
+  giga_situation_birch_expedition_9_approach_energy:99 "Расширить сбор энергии"
+  giga_situation_birch_expedition_9_approach_energy_tooltip:99 "После завершения, массив добычи будет сосредоточен на производстве £energy£ §YЭнергокредитов§!.\n "
+  giga_situation_birch_expedition_9_approach_energy_desc:99 "Сосредоточившись на расширении возможностей вытяжного массива по сбору энергетических частиц, мы сможем увеличить производство энергии."
+  
+  giga_situation_birch_expedition_9_approach_minerals:99 "Сфокусированный минеральный бур"
+  giga_situation_birch_expedition_9_approach_minerals_tooltip:99 "После завершения, массив добычи будет сосредоточен на сборе £minerals£ §YМинералов§!.\n "
+  giga_situation_birch_expedition_9_approach_minerals_desc:99 "Если конструкция гравитационного бура будет ориентирована на добычу минералов, мы получим больший поток сырья."
+  
+  giga_situation_birch_expedition_9_approach_dark_matter:99 "Сифон темной материи"
+  giga_situation_birch_expedition_9_approach_dark_matter_tooltip:99 "После завершения, массив извлечения будет сосредоточен на сборе £sr_dark_matter£ §YТеной материи§!.\n "
+  giga_situation_birch_expedition_9_approach_dark_matter_desc:99 "Гравитационный бур может быть модифицирован для извлечения большого количества темной материи непосредственно из черной дыры."
+  
+  #########################################
+  ### General Events ######################
+  #########################################
+  
+  # birch lost somehow
+  giga_birch.101:99 "Мир Берча потерян!"
+  giga_birch.101.desc:99 "Сооружение было отнято у нас. Изгнанные из нашего дома, мы не можем продолжать исследования своего прошлого."
+  giga_birch.101.a:99 "Мы вернем наш дом любой ценой."
+  
+  # birch planet-killed
+  giga_birch.103:99 "[this.GetName] уничтожен!"
+  giga_birch.103.desc:99 "Сооружение разбито вдребезги, фрагментированные обломки исчезают в пустоте или поглощаются черной дырой внутри. Наш дом разрушен, и любая надежда на его восстановление исчезла вместе с ним. Мы лишены цели."
+  giga_birch.103.a:99 "Неизмеримая потеря."
+  
+  # birch reclaimed
+  giga_birch.105:99 "[this.GetName] возвращен!"
+  giga_birch.105.desc:99 "Сооружение было возвращено! Большая часть нашей родины лежит в руинах, но мы можем восстановить ее. Теперь, когда мы снова контролируем ситуацию, наши усилия по исследованию могут возобновиться."
+  giga_birch.105.a:99 "Наш дом снова в безопасности."
+  
+  #########################################
+  ### Edge of Eternity Dig Site ###########
+  #########################################
+  
+  giga_birch.800:99 "Подробное исследование"
+  giga_birch.800.desc:99 "Минул год с момента официального завершения нашей колонизации [from.planet.GetName], и наши колонисты все ближе знакомятся с древним аркологическим комплексом, который укрывает их от штормов и опасных течений, проходящих по поверхности планеты. Многие вопросы об этих огромных океанических структурах остаются без ответа, и потенциал для научных открытий высок.\n\nМы расчистили и подготовили место на одной из основных платформ для дальнейшего исследования."
+  giga_birch.800.a:99 "Мы развеем завесу тайн."
+  
+  site_giga_birch_origin_edge_of_eternity:99 "Древние океанические аркологии"
+  site_giga_birch_origin_edge_of_eternity_intro:99 "Древние аркологии на [planet.GetName] - это все, что отделяет наших колонистов от неистовых морей. Как и почему они были построены, остается загадкой, особенно с учетом Сооружения, нависшего над планетой."
+  
+  giga_birch.801:99 "Древние подъездные пути"
+  giga_birch.801.desc:99 "Серия коридоров в редко посещаемой части аркологии привела нашего [owner.GetArchaeologistPlural] к огромной двери, которая отделяет большую часть платформы от комплекса в целом.\n\nЭто может быть какое-то защищенное хранилище данных или другая важная область."
+  giga_birch.801.a:99 "Запечатанная дверь - хороший знак."
+  
+  giga_birch.802:99 "Составление карты территории"
+  giga_birch.802.desc:99 "Дверь была открыта, и территория внутри теперь отображается на карте. Огромная секция аркологии, похоже, была отведена под какой-то цифровой архив, но прогрессирующее состояние разложения, очевидное во всем комплексе, может означать, что здесь больше нечего искать."
+  giga_birch.802.a:99 "Изучите даже камни."
+  
+  giga_birch.803:99 "Обветшалые сервера"
+  giga_birch.803.desc:99 "В глубине архива была найдена комната, содержащая ряд, казалось бы, неповрежденных записей. Планировка территории вокруг и низкий уровень мер безопасности позволяют предположить, что она не имеет особого значения, скорее забыта, чем специально сохранена.\n\nНаши [owner.GetArchaeologistPlural] расшифровывают содержимое, но из-за уровня повреждений, сбор воедино чего-либо полезного может занять некоторое время."
+  giga_birch.803.a:99 "Нам повезло, что архив хотя бы частично уцелел."
+  
+  giga_birch.804:99 "Кладезь схем"
+  giga_birch.804.desc:99 "Попытки собрать воедино пригодные для использования данные из остатков архива наконец-то принесли некоторые результаты.\n\nПохоже, что именно эта секция использовалась для хранения схем аркологии и других подобных сооружений! Они неполные из-за износа носителей, но даже этот ограниченный взгляд на мысли архитекторов, несомненно, принесут огромную пользу."
+  giga_birch.804.a:99 "Мы могли бы использовать эти знания для колонизации других планет..."
+  giga_birch.804.pops:99 "Каждое £pop£ §Yпоселение§! на §H[this.GetName]§! с признаком §Y$trait_pc_birch_preference$§! получит вместо нее признак §Y$trait_pc_ocean_preference$§!."
+  giga_birch.804.b:99 "... или перепрофилировать его для строительства космических сред обитания вместо этого."
+  
+  giga_birch_origin_building_reward_habitat:99 "Обратная инженерия"
+  giga_birch_origin_building_reward_habitat_desc:99 "Мы многое узнали о строительстве из аркологического комплекса на Краю Вечности."
+  giga_birch_origin_building_reward_planet:99 "Обратная инженерия"
+  giga_birch_origin_building_reward_planet_desc:99 "Мы многое узнали о строительстве из аркологического комплекса на Краю Вечности."
+  
+  #########################################
+  ### Expeditions #########################
+  #########################################
+  
+  giga_explorer_1:99 "исследователь"
+  giga_explorers_1:99 "исследователи"
+  
+  giga_explorer_2:99 "исследовательский трутень"
+  giga_explorers_2:99 "исследовательские трутни"
+  
+  giga_explorer_3:99 "исследовательский дрон"
+  giga_explorers_3:99 "исследовательские дроны"
+  
+  # expedition 1
+  giga_birch.1001:99 "Первая экспедиция"
+  giga_birch.1001.desc:99 "Сегодня отмечается дата отправления нашей первой крупной исследовательской операции по обнаружению функционального транзитного шпиля, а через него и истоков нашего родного мира. Хотя в прошлом было предпринято много попыток нанести на карту регионы, удаленные от нашего родного Острова, они были сравнительно небольшими и плохо оснащенными, и не достигли чего-то конкретного в бескрайней дикой природе.\n\nТеперь, когда мы увидели Сооружение из космоса и поняли его истинную необъятность, крайне важно, чтобы наши [GigaGetExplorerPlural] имели оборудование и материалы, необходимые для экспедиций такого эпического масштаба.\n\nЛидер экспедиции [giga_birch_expedition_leader.GetName] был назначен руководить операцией, возглавив объединенные сухопутные, морские и воздушные силы, достаточно большие, чтобы преодолеть требуемые экстремальные расстояния, сохранив при этом большую часть собственной цепи поставок\n\nНе известно, что нас ждет внизу, но мы надеемся, что это прольет свет на истинную природу этого древнего сооружения."
+  giga_birch.1001.a:99 "Мы отправляемся в темноту в поисках истины."
+  
+  giga_birch.1002:99 "Только руины"
+  giga_birch.1002.desc:99 "Лидер экспедиции [giga_birch_expedition_leader.GetName] сообщает, что наши [GigaGetExplorerPlural] обнаружили остатки большого поселения, расположенного, как и наше собственное, вокруг одного из больших опорных шпилей, который, к сожалению, не функционирует.\n\nСудя по изношенному состоянию руин и тому, что многие строения, похоже, были полностью погребены иловыми дождями, наши [GetArchaeologistPlural] предполагают, что поселение было заброшено около 200 лет назад.\n\nВ настоящее время проводится более тщательное исследование, и скоро мы будем готовы предоставить отчет."
+  giga_birch.1002.a:99 "Разделенные пространством и временем."
+  
+  giga_birch.1003:99 "Постоянное присутствие?"
+  giga_birch.1003.desc:99 "Прибыл отчет о разрушенном поселении, обнаруженном нашей [GigaGetExplorerPlural], и он мало чем объясняет то, что мы видели.\n\nПо словам руководителя экспедиции [GetArchaeologist], цивилизация, которая когда-то жила здесь, была хорошо развита и имела значительный уровень промышленной инфраструктуры. Мало что осталось, чтобы помочь нам понять, какими именно они были, поскольку не было найдено никаких останков, а все найденные носители информации истлели до неузнаваемости. Все, что мы можем сказать наверняка, это то, что их телосложение отличалось от нашего, так как их инструменты и приспособления имеют чужеродный дизайн.\n\nЛидер экспедиции [giga_birch_expedition_leader.GetName] предложил создать передовую базу операций на этом месте, поскольку эта загадка может стать предметом длительного изучения. [giga_birch_expedition_leader.GetSheHeCap] [giga_birch_expedition_leader.GetIsAre] также предлагает использовать некоторые из менее интересных мест для сбора ресурсов, либо путем переработки либо перепланировки земли."
+  giga_birch.1003.a:99 "Перепрофилируем их заводы."
+  giga_birch.1003.a.desc:99 "Мы перепрофилируем их промышленную инфраструктуру, теперь она производит £consumer_goods£ §Y$consumer_goods$§!.\n "
+  giga_birch.1003.b:99 "Восстановить некоторые сооружения."
+  giga_birch.1003.b.desc:99 "Разборка менее значимых руин даст нам £minerals£ §Y$minerals$§! и £alloys£ §Y$alloys$§!.\n "
+  giga_birch.1003.c:99 "Восстановить электростанции."
+  giga_birch.1003.c.desc:99 "Восстановление их электростанций позволит нам производить дополнительные £energy£ §Y$energy$§!.\n "
+  giga_birch.1003.d:99 "Все эти пахотные земли должны быть использованы."
+  giga_birch.1003.d.desc:99 "Расчистка бессмысленных завалов позволит нам выращивать £food£ §Yпищу§! в этом районе.\n "
+  
+  giga_birch.1004:99 "Неопределенное будущее"
+  giga_birch.1004.desc:99 "Открытие вымершей цивилизации, которая, похоже, следовала по той же технологической траектории, что и наша собственная, оставило у нас чувство неуверенности в собственном постоянстве. У нас есть преимущество в том, что мы можем получить доступ к пространству за пределами внешней оболочки Сооружения, но мы до сих пор не нашли ни одного функционального шпиля, через который можно было бы попасть на нижние уровни. Возможно, что ни один из них не находится в рабочем состоянии, и в этом случае мы никогда не достигнем нашей цели.\n\nМы должны удвоить наши усилия. Следующая экспедиция пройдет дальше, узнает больше и сможет лучше отразить все, что может угрожать их миссии."
+  giga_birch.1004.a:99 "Эта передовая база будет первым шагом из многих."
+  
+  #########################################
+  # expedition 2
+  
+  giga_birch.2001:99 "Вторая экспедиция"
+  giga_birch.2001.desc:99 "Пришло время начать нашу вторую крупную экспедицию в неизвестность, снова в поисках функционального шпиля для доступа к нижним слоям Сооружения.\n\nОсновываясь на наших предыдущих находках, наши исследователи отправятся с передовой базы, созданной среди руин, обнаруженных первой экспедицией. Лидер экспедиции [giga_birch_expedition_leader.GetName] и [giga_birch_expedition_leader.GetHerHis] команда [GigaGetExplorerPlural] готовы принять любые вызовы, которые встанут перед ними."
+  giga_birch.2001.a:99 "И снова в неизвестность."
+  
+  giga_birch.2002:99 "Признаки цивилизации"
+  giga_birch.2002.desc:99 "Лидер экспедиции [giga_birch_expedition_leader.GetName] сообщает, что они засекли радиосигналы, указывающие на индустриальное общество, и отправили несколько замаскированных разведчиков впереди основного конвоя для дальнейшего исследования.\n\nИз того, что удалось выяснить на данный момент, похоже, что это [giga_birch_expedition_2_country.GetSpeciesClassPlural] с технологическим уровнем, значительно уступающим нашему. У них много городов, несколько из которых построены вокруг шпилей, с сооружениями, возведенными частично вверх по их внешнему виду, используемыми в основном для запуска самолетов с неподвижным крылом на большие расстояния.\n\nНет никаких признаков того, что наши [GigaGetExplorerPlural] обнаружены, и прилагаются все усилия, чтобы это так и оставалось."
+  giga_birch.2002.a:99 "Соберите как можно больше информации."
+  
+  giga_birch.2003:99 "Контакт!"
+  giga_birch.2003.desc:99 "Нас заметили!\n\nЛидер экспедиции [giga_birch_expedition_leader.GetName] прислал срочное сообщение о том, что виды [giga_birch_expedition_2_country.GetSpeciesClass], за которыми наблюдала экспедиция, узнали об их присутствии. Один из летательных аппаратов примитивов пролетел на необычно большое расстояние в их направлении, пройдя в пределах нашей зоны затемнения и непосредственно увидев основной конвой. Самолету удалось спастись, и он послал сигнал бедствия.\n\nСейчас мы получаем сообщение, переданное прямо в сторону конвоя, с просьбой об аудиенции."
+  giga_birch.2003.a:99 "Выведите на экран."
+  
+  giga_birch.2004:99 "[giga_birch_expedition_2_country.GetName]"
+  giga_birch.2004.title:99 "Входящая передача"
+  giga_birch.2004.desc:99 "Я - [giga_birch_expedition_2_ruler.GetName], [giga_birch_expedition_2_country.GetRulerTitle] из [giga_birch_expedition_2_country.GetName]. Говорите, чужеземцы. Мы желаем мирной дискуссии, но готовы защищаться, если потребуется."
+  giga_birch.2004.a:99 "Тогда обсудим."
+  giga_birch.2004.a.desc:99 "Мы будем обмениваться информацией, чтобы больше узнать друг о друге."
+  giga_birch.2004.b:99 "Мы ищем функциональный шпиль."
+  giga_birch.2004.b.desc:99 "Переходим прямо к делу."
+  giga_birch.2004.c:99 "Этого недостаточно."
+  giga_birch.2004.c.desc:99 "Мы начнем немедленную атаку с целью уничтожить всех до единого."
+  
+  giga_birch.2005.desc:99 "[giga_birch_expedition_2_country.giga_birch_2005_part1] [giga_birch_expedition_2_country.giga_birch_2005_part2]\n\n[root.giga_birch_2005_part3]"
+  
+  giga_birch.2005.desc.1:99 "Вы говорите с избранным представителем [giga_birch_expedition_2_country.GetName]."
+  giga_birch.2005.desc.1.democracy:99 "Страна [giga_birch_expedition_2_country.GetName] является демократической нацией. Я говорю с вами как ее нынешний избранный лидер и глава правительства, от имени народа."
+  giga_birch.2005.desc.1.oligarchy:99 "Я говорю от имени правящего совета [giga_birch_expedition_2_country.GetName], как его глава."
+  giga_birch.2005.desc.1.autocracy:99 "Вы говорите с единственным лидером этой нации. Вы должны знать, что среди нашего народа считается знаком уважения, если я обращаюсь к вам напрямую."
+  
+  giga_birch.2005.desc.2:99 "Мы живем в этих землях столько, сколько существует история, и до сегодняшнего дня не встречали другой разумной жизни. Это знаменательное событие, и мы надеемся, что ваша уловка была скорее из осторожности, чем по злому умыслу."
+  giga_birch.2005.desc.2.militarist:99 "Мы жили на этих землях столько, сколько длится история, и до сегодняшнего дня не встречали другой разумной жизни. Наши храбрые воины готовы приветствовать вас, будь то в духе мира или на поле боя."
+  giga_birch.2005.desc.2.spiritualist:99 "Древние писания повествуют о том, что наш народ пришел на эти земли давным-давно, и с тех пор мы остаемся здесь. Несмотря на то, что мы посылали множество миссионеров исследовать земли за их пределами, мы не находили никакой другой разумной жизни до сегодняшнего дня. Мы надеемся, что ваша уловка была скорее из осторожности, чем по злому умыслу."
+  
+  giga_birch.2005.desc.3:99 "К вопросу, кто вы, иноземцы? Исследователи, подобные нашим? Этот отчет предполагает, что вы во многом похожи на нас, хотя в нем также говорится о некоторых фантастических технологиях, которые мы считали невозможными."
+  giga_birch.2005.desc.3.hive:99 "К вопросу, кто вы такие, иноземцы? Ваши представители вполне естественны, в то время как их подчиненные двигаются синхронно и безмолвно. Вы общаетесь каким-то другим способом?"
+  giga_birch.2005.desc.3.machine:99 "К вопросу, кто вы на самом деле, иноземцы? Мы видим ваши машины, как бы фантастичны они ни были, но среди них нет ни одного живого существа. Неужели вы считаете нас ниже любезности поговорить с глазу на глаз?"
+  giga_birch.2005.desc.3.assimilator:99 "К вопросу, кто вы на самом деле, иноземцы? Ваши движения и манеры кажутся почти роботизированными, неужели представители, которых вы послали к нам, всего лишь марионетки? Что вы с ними сделали?"
+  
+  giga_birch.2005.a:99 "Это должно все объяснить."
+  giga_birch.2005.a.hive:99 "Мы стоим перед тобой как одно целое. Прими это."
+  giga_birch.2005.a.machine:99 "Начинаю передачу данных."
+  giga_birch.2005.a.desc:99 "Мы отправим информационный пакет с подробным описанием нашей миссии.\n "
+  
+  giga_birch.2006.desc:99 "А, так вы ищете способ проникнуть в нижние слои, которые, по вашему мнению, содержат механизмы, поддерживающие наш мир? Мне не известно, правы ли вы, но, похоже, вам известно куда больше нашего. Мы знаем только то, что ни один из шпилей, с которыми мы столкнулись, не ответил на наши попытки получить доступ и оказался невосприимчив к взлому.\n\nМежду тем, ваш значительный технологический прогресс... впечатляет.\n\nПохоже, вы поставили нас в невыгодное положение, [root.GetSpeciesName]. Что же нам остается?"
+  giga_birch.2006.desc.hive:99 "Значит, вы все - части одного большого организма, управляемого каким-то... сверхразумом? Это очень чуждая для нас концепция, но мы уже рассматривали такую форму жизни. Немного тревожно, если быть честным, но мы открыты для дипломатических отношений между нашими... можно ли вообще считать то, чем вы являетесь, культурой? Возможно, нашим социологам придется пересмотреть некоторые термины.\n\nНо хватит об этом, здесь сказано, что вы ищете функциональный шпиль для доступа к механизмам в слоях ниже? Мне жаль говорить, что все, с которыми мы сталкивались, были инертны, так что мы не можем вам ничем помочь. Что же нам остается?"
+  giga_birch.2006.desc.machine:99 "Подождите, вы хотите сказать, что существуют ТОЛЬКО машины? И вы не знаете, что стало с вашими создателями? Это, мягко говоря, тревожно, но если ваши намерения мирные, то мы открыты для дипломатических отношений между нашими... можно ли вообще считать то, чем вы являетесь, культурой? Возможно, нашим социологам придется пересмотреть некоторые термины.\n\nНо хватит об этом, здесь сказано, что вы ищете функциональный шпиль для доступа к механизмам в слоях ниже? Мне жаль говорить, что все, с которыми мы сталкивались, были инертны, так что мы не можем вам ничем помочь. Что же нам остается?"
+  giga_birch.2006.desc.servitor:99 "Люди вернулись на вашу родину, и вы по собственной воле отправляетесь на разведку? Мысль доверить так много машине... странная, но если то, что вы говорите, правда, то ваши намерения, по крайней мере, кажутся хорошими. Что касается вашего интереса к шпилям, ни один из тех, с которыми мы сталкивались, не реагировал на наши попытки получить доступ и оказался невосприимчив к взлому.\n\nОчевидно, что вы обладаете технологиями уровня, значительно превышающего наш собственный, так что мы в невыгодном положении, [root.GetSpeciesNamePlural]. Мы открыты для дипломатических отношений между нашими народами, если вы согласны."
+  giga_birch.2006.desc.assimilator:99 "\"Союз плоти и машины\"? Мне трудно поверить, что вы сами этого желали, но... при нынешнем положении вещей мы будем уважать ваш образ жизни, если вы будете уважать наш.\n\nМы не знаем, верна ли ваша гипотеза о механизмах ниже, но вы, похоже, знаете гораздо больше нашего. Мы знаем только то, что ни один из шпилей, с которыми мы сталкивались, не ответил на наши попытки получить доступ и оказался невосприимчив к взлому.\n\nМежду тем, ваш значительный технологический прогресс... вызывает беспокойство. Похоже, вы поставили нас в невыгодное положение, [root.GetSpeciesName]. Что же нам остается?"
+  giga_birch.2006.oncon:99 "§HПо завершению экспедиции:§!"
+  giga_birch.2006.a:99 "Мы желаем обмена товарами и идеями."
+  giga_birch.2006.a.desc:99 "Мы начнем переговоры о долгосрочной торговой сделке, но [giga_birch_expedition_2_country.GetName] останется независимой.\n\n$giga_birch.2006.oncon$\n "
+  giga_birch.2006.a.xenophobe:99 "Мы должны заниматься торговлей, но не более того."
+  giga_birch.2006.a.xenophobe.desc:99 "Мы начнем переговоры о долгосрочной торговой сделке, но [giga_birch_expedition_2_country.GetName] будем держать на расстоянии.\n\n$giga_birch.2006.oncon$\n "
+  giga_birch.2006.b:99 "Присоединяйтесь к нам. Это и ваш мир тоже."
+  giga_birch.2006.b.desc:99 "Начать мирную интеграцию их нации под нашим внешним знаменем.\n\n$giga_birch.2006.oncon$\n\n$giga_birch.2009.integrate.desc$"
+  giga_birch.2006.c:99 "Сдавайтесь или будете уничтожены."
+  giga_birch.2006.c.desc:99 "Наша экспедиция попытается подчинить этих примитивов силой.\n\n$giga_birch.2006.oncon$\n\n$giga_birch.2009.conquer.desc$"
+  giga_birch.2006.d:99 "Мы спасем вас от вас самих."
+  giga_birch.2006.d.desc:99 "Наша экспедиция обеспечит надлежащий уход за органической формой жизни.\n\n$giga_birch.2006.oncon$\n\n$giga_birch.2009.sanctuary.desc$"
+  
+  giga_birch.2007.desc:99 "Такого здесь не найти, к сожалению. Ни один из шпилей, с которыми мы столкнулись, не ответил на наши попытки проникнуть внутрь, и оказался невосприимчив к взлому. Но вы уже зашли так далеко и возможно сможете сделать то, чего не смогли мы.\n\nВаш уровень технологий вызывает беспокойство. ПВы ставите нас в невыгодное положение, [root.GetSpeciesName]. Что же нам остается?"
+  
+  giga_birch.2008.desc.exterminate:99 "Не думайте, что мы просто сложим головы, иноземцы. Мы будем сражаться до последнего вздоха, чтобы сохранить наш образ жизни."
+  giga_birch.2008.exterminate:99 "Это мы еще посмотрим."
+  giga_birch.2008.desc.trade:99 "Звучит... выгодно. Я уверен, что мы сможем многому научиться друг у друга. Я попрошу министров немедленно подготовить предложение."
+  giga_birch.2008.trade:99 "Отлично."
+  giga_birch.2008.desc.integrate:99 "Если ваши слова о хрупкости нашей мира, верно, то кажется, что эта ваша миссия действительно очень важна. Мы будем помогать всем, чем сможем."
+  giga_birch.2008.integrate:99 "Добро пожаловать на борт."
+  giga_birch.2008.desc.conquer:99 "Сдаться? Возможно, у вас есть технологическое преимущество, но наши вооруженные силы должны быть более чем способны победить группу исследователей. Мы не сдадимся."
+  giga_birch.2008.conquer:99 "Прискорбно."
+  giga_birch.2008.desc.sanctuary:99 "Вы хотите дать нам технологию? Это... неожиданно. И очень тревожно. Я подготовлю наших лучших ученых к изучению вашего предложения в течение нескольких дней."
+  giga_birch.2008.sanctuary:99 "Это только начало..."
+  giga_birch.2008.a:99 "(Если вы видите это, значит, что-то пошло не так.)"
+  
+  giga_birch.2009:99 "Послесловие"
+  giga_birch.2009.desc.exterminate:99 "Три вспышки. Три поднимающихся шлейфа атомного огня, когда наши термоядерные бомбы в мгновение ока уничтожили три города [giga_birch_expedition_2_country.GetAdj].\n\nВ течение следующего месяца наши исследовательские силы систематически выслеживали и убивали каждого представителя [giga_birch_expedition_2_species.GetName], которого они могли найти. Беспощадно.\n\nКакими бы могущественными они себя ни считали, они были повержены простой силой оружия. Останки их цивилизации послужат полигоном и местом изучения для следующей встречи с чужаками."
+  giga_birch.2009.exterminate:99 "Все так, как и должно быть."
+  giga_birch.2009.exterminate.desc:99 "£district£ §Y$district_giga_origin_birch_lab_plural$§! будут производить дополнительные £society_research£ §Y$society_research$§! и £unity£ §Y$unity$§!.\n "
+  giga_birch.2009.desc.trade:99 "После периода переговоров было успешно сформировано торговое партнерство с [giga_birch_expedition_2_country.GetName]. Страны останутся отдельными, но торговцы будут путешествовать между нашими землями, и в настоящее время разрабатываются планы по созданию системы транзита на большие расстояния."
+  giga_birch.2009.trade:99 "За прибыльное будущее для всех нас."
+  giga_birch.2009.trade.desc:99 "£district£ §Y$district_giga_origin_birch_lab_plural$§! будут производить дополнительные £society_research£ §Y$society_research$§! и £unity£ §Y$unity$§!.\n "
+  giga_birch.2009.desc.integrate:99 "После периода напряженных переговоров, [giga_birch_expedition_2_country.GetName] согласилась присоединиться к нашей миссии по восстановлению Сооружения. Они будут под нашим знаменем, поскольку это касается остальной галактики, и наши народы, несомненно, со временем станут ближе."
+  giga_birch.2009.integrate:99 "Мы вместе узнаем нашу судьбу."
+  giga_birch.2009.integrate.desc:99 "К колонии на [situation.target.GetName] присоединяются 8 £pop£ §Hпоселений§! расы §Y[giga_birch_expedition_2_species.GetName]§!.\n "
+  giga_birch.2009.desc.conquer:99 "После периода интенсивных боев наши экспедиционные силы заставили [giga_birch_expedition_2_country.GetName] безоговорочно капитулировать. Их численность не могла сравниться с нашей превосходящей огневой мощью.\n\nТеперь мы занимаем их земли, и их ресурсы принадлежат нам."
+  giga_birch.2009.conquer:99 "Они научатся подчиняться."
+  giga_birch.2009.conquer.desc:99 "К колонии на [situation.target.GetName] присоединяются 6 £pop£ §Hпоселений§! расы §Y[giga_birch_expedition_2_species.GetName]§! с модификатором §Y$pop_recently_conquered$§!.\n "
+  giga_birch.2009.desc.sanctuary:99 "Под первоначальным предлогом обмена технологиями мы успешно интегрировали [giga_birch_expedition_2_country.GetName] в нашу сеть с их полным согласием. Они будут продолжать думать, что живут без присмотра, но постепенно начнут входить в новую жизнь в безопасности и довольстве.\n\nНаш \"союз\" будет увековечен на много поколений [giga_birch_expedition_2_species.GetAdjective]."
+  giga_birch.2009.sanctuary:99 "Со временем они нас отблагодарят."
+  giga_birch.2009.sanctuary.desc:99 "К колонии на [situation.target.GetName] присоединяются 8 £pop£ §Hпоселений§! расы §Y[giga_birch_expedition_2_species.GetName]§!.\n "
+  giga_birch.2009.a:99 "Если вы видите это сообщение, значит, что-то пошло не так."
+  
+  #########################################
+  # expedition 3
+  
+  giga_birch.3001:99 "Третья экспедиция"
+  giga_birch.3001.desc:99 "Пришло время третьей экспедиции отправиться в неизвестность в поисках функционального шпиля.\n\nМы многому научились за десятилетия, прошедшие с начала нашей миссии, и новые разработки в области двигательных установок и сенсорных технологий позволят нашим [GigaGetExplorerPlural] пройти дальше и увидеть больше, чем когда-либо прежде.\n\nНа этот раз конвой будет управляться лидером экспедиции [giga_birch_expedition_leader.GetName] и продолжит путь от отдаленной передовой базы, созданной второй экспедицией."
+  giga_birch.3001.a:99 "Они отправляются на поиски будущего."
+  
+  giga_birch.3002:99 "Кандидат"
+  giga_birch.3002.desc:99 "Лидер экспедиции [giga_birch_expedition_leader.GetName] сообщает, что наши [GigaGetExplorerPlural] возможно, наконец-то нашли функциональный транзитный шпиль!\n\nПосле нескольких тысяч неудачных попыток, один шпиль показал признаки сохранения неповрежденных внутренних систем и может позволить нам пройти на нижние уровни... если мы сможем обеспечить его достаточным количеством энергии для пробуждения.\n\n[giga_birch_expedition_leader.GetName] ожидает нашего согласия, так как для пробуждения древней машины потребуется много времени и значительный запас энергокредитов."
+  giga_birch.3002.a:99 "Мы не можем упустить эту возможность. Начинайте немедленно!"
+  
+  giga_birch.3003:99 "Оно живое!"
+  giga_birch.3003.desc:99 "Готово! Лидер экспедиции [giga_birch_expedition_leader.GetName] сообщает, что после вливания энергии древний транзитный шпиль, обнаруженный экспедицией, активировался!\n\nНаша гипотеза о том, что шпили использовались не только для поддержки, но и для перемещения между уровнями, подтвердилась, и наши [GigaGetExplorerPlural] теперь будет иметь доступ к слоям ниже нашего собственного.\n\nБыла выбрана небольшая команда, чтобы выяснить, как далеко мы можем зайти, как для безопасности экспедиции в целом, так и из-за ограничений шпиля перемещать кого-то за раз."
+  giga_birch.3003.a:99 "Наконец-то. Пора спускаться."
+  
+  giga_birch.3004:99 "Царство машин"
+  giga_birch.3004.desc:99 "Пройдя вниз в течение нескольких дней, наши [GigaGetExplorerPlural] сообщают, что транзитная капсула шпиля столкнулась с блокиратором, который препятствует дальнейшему продвижению. По пути они смогли получить доступ только к трем из десятков пройденных слоев, два из которых оказались полностью лишены особенностей, содержа лишь безвоздушное пустое пространство между оболочками.\n\nТретий слой оказался иным. По первоначальным данным, он заполнен механизмами, возможно, промышленного назначения, и имеет атмосферу из инертных газов, предположительно в качестве теплоносителя.\n\nЛидер экспедиции [giga_birch_expedition_leader.GetName] предлагает создать передовую базу у подножия шпиля на этом третьем уровне, чтобы закрепить позицию и иметь площадку, с которой можно проводить дальнейшую разведку.\n\nОстается один вопрос: какова должна быть главная цель передовой базы?"
+  giga_birch.3004.a:99 "Сначала изучите любую инфраструктуру связи."
+  giga_birch.3004.a.desc:99 "£district£ §Y$district_giga_origin_birch_lab_plural$§! будут производить дополнительные £physics_research£ §Y$physics_research$§!.\n "
+  giga_birch.3004.b:99 "Сосредоточьтесь на промышленных процессах."
+  giga_birch.3004.b.desc:99 "£district£ §Y$district_giga_origin_birch_lab_plural$§! будут производить дополнительные £engineering_research£ §Y$engineering_research$§!.\n "
+  giga_birch.3004.c:99 "Соберите все, что представляет интерес."
+  giga_birch.3004.c.desc:99 "£district£ §Y$district_giga_origin_birch_lab_plural$§! будут производить £minor_artifacts£ §Y$minor_artifacts$§! в небольшом количестве.\n "
+  
+  #########################################
+  # expedition 4
+  
+  giga_birch.4001:99 "Четвертая экспедиция"
+  giga_birch.4001.desc:99 "Когда третья экспедиция успешно активировала шпиль и отправилась в машинный слой, мы подсчитали, что наши [GigaGetExplorerPlural] прошли менее одного процента пути к ядру Сооружения. С тех пор новые измерения влияния гравитации и течения времени на машинном слое заставили нас пересмотреть наши расчеты плотности Сооружения.\n\nОсновываясь на этих данных и наблюдениях за другими галактиками, мы теперь считаем, что Сооружение может быть построено вокруг сверхмассивной черной дыры, а машинный слой расположен более чем на тридцати процентах пути от внешней поверхности до горизонта событий. Эта новая оценка коренным образом меняет представление о том, какого прогресса мы достигли, и позволяет предположить, что добраться до ядра можно гораздо раньше, чем мы предполагали вначале.\n\nЧетвертую экспедицию возглавит лидер [giga_birch_expedition_leader.GetName]. Их главная задача - поиск еще одного шпиля на машинном слое, способного приблизить нас к нашей цели."
+  giga_birch.4001.a:99 "Даже если они этого не сделают, здесь столько всего интересного."
+  
+  giga_birch.4002:99 "Бездействующие заводы?"
+  giga_birch.4002.desc:99 "Лидер экспедиции [giga_birch_expedition_leader.GetName] сообщает, что они столкнулись с большим объектом, который может быть автоматизированным производственным комплексом. Он кажется удивительно целым по сравнению с другими сооружениями, встреченными во время путешествия, и мы готовы начать более тщательное исследование, чтобы определить, может ли он быть отремонтирован или как-то иначе перепрофилирован."
+  giga_birch.4002.a:99 "Мы уделим этому все наше внимание."
+  
+  giga_birch_origin_expedition_4:99 "Исследование древней мануфактуры"
+  giga_birch_origin_expedition_4_DESC:99 "Наши [GigaGetExplorerPlural] обнаружили почти неповрежденные останки древнего производственного комплекса на машинном слое. Нам нужно изучить его системы, чтобы определить, можно ли его отремонтировать."
+  
+  giga_birch.4003:99 "С небольшим количеством жира на локтях..."
+  giga_birch.4003.desc:99 "Наши [GigaGetExplorerPlural] доложили о результатах: древний мануфактурный комплекс кажется достаточно неповрежденным, чтобы его восстановить, и это может быть чрезвычайно полезно.\n\nЛидер экспедиции [giga_birch_expedition_leader.GetName] говорит, что хотя [giga_birch_expedition_leader.GetSheHe] пока не может точно сказать, как это можно сделать, но возможность появится, если мы изучим работу механизмов."
+  giga_birch.4003.a:99 "Давайте начнем."
+  
+  giga_birch.4004:99 "Намеки на нечто большее"
+  giga_birch.4004.desc:99 "Исследование также выявило кое-что еще - приблизительное расположение информационных сетей, проходящих через Сооружение.\n\nС этой информацией мы можем значительно сфокусировать наши усилия, нацелившись на области, которые могут содержать важные узлы этой сети. Пространство поиска по-прежнему огромно, но теперь у нас есть своего рода карта."
+  giga_birch.4004.a:99 "Со временем мы узнаем ее секреты."
+  
+  giga_birch.4005:99 "Подход завершен"
+  giga_birch.4005.desc:99 "Мы достигли точки невозврата в восстановлении древнего мануфактурного комплекса. После этой точки дальнейшие изменения наших планов разрушат наши шансы на восстановление механизмов, поскольку мы все еще не понимаем, как воспроизвести некоторые материалы и компоненты, которые для этого потребуются."
+  giga_birch.4005.desc.alloys:99 "$giga_birch.4005.desc$\n\nПо завершению, завод будет производить £alloys£ §Y$alloys$§! в большом количестве."
+  giga_birch.4005.desc.goods:99 "$giga_birch.4005.desc$\n\nПо завершению, фабрика будет производить £consumer_goods£ §Y$consumer_goods$§! в большом количестве."
+  giga_birch.4005.desc.supertensiles:99 "$giga_birch.4005.desc$\n\nПо завершению, кузница будет производить £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§! в большом количестве."
+  giga_birch.4005.a:99 "Теперь осталось только закончить работу."
+  
+  giga_birch.4006:99 "Восстановление мануфактуры завершено"
+  giga_birch.4006.desc:99 "Проект по восстановлению древнего мануфактурного комплекса на машинном уровне успешно завершен. Объект уже начинает оживать, древние механизмы впервые за много веков приходят в движение.\n\nЭто должно значительно увеличить нашу производственную мощность."
+  giga_birch.4006.a:99 "Новый рассвет для [root.GetAdj] промышленности."
+  giga_birch.4006.a.desc:99 "§Y$d_giga_birch_expedition_4$§! добавляет новые виды деятельности в колонии [situation.target.GetName]."
+  
+  #########################################
+  # expedition 5
+  
+  giga_birch.5001:99 "Пятая экспедиция"
+  giga_birch.5001.desc:99 "С момента завершения четвертой экспедиции был достигнут значительный прогресс в интерпретации обнаруженной нами карты сети. Было намечено несколько мест-кандидатов на важные узлы, и эта новая экспедиция отправится к ближайшим из них.\n\nЛидер экспедиции [giga_birch_expedition_leader.GetName] и [GigaGetExplorerPlural] под его крылом отправятся к этому предполагаемому месту и определят, верны ли наши прогнозируемые модели.\n\nМы все еще не знаем, какую форму примут эти узлы, и даже есть ли у них физическая форма, с которой мы могли бы взаимодействовать, но подтверждение того, что наши подозрения верны, стоит потраченных средств."
+  giga_birch.5001.a:99 "Мы увидим Сооружение новыми глазами."
+  
+  giga_birch.5002:99 "Отслеживание сети"
+  giga_birch.5002.desc:99 "Лидер экспедиции [giga_birch_expedition_leader.GetName] сообщает, что наша экспедиция достигла приблизительной области предсказанного узла сети и столкнулась с необычным сооружением, встроенным в главный ствол одного из шпилей машинного уровня.\n\nСам шпиль кажется рабочим, поэтому доступ к странному сооружению не должен быть проблемой, но наши [GigaGetExplorerPlural] ействуют с осторожностью."
+  giga_birch.5002.a:99 "Возможно, это как раз то, что мы ищем."
+  
+  giga_birch.5003:99 "Отсутствие контекста"
+  giga_birch.5003.desc:99 "Внутри необычного шпиля наши [GigaGetExplorerPlural] обнаружили то, что кажется неким центром управления, предназначенным для управления потоком ресурсов и энергии через системы Сооружения. Наши [GetResearchers] предполагают, что если мы сможем взломать протокол, используемый в сети, мы сможем взять под контроль эти системы и, наконец, вернуть Сооружение к жизни."
+  giga_birch.5003.desc.wait:99 "Внутри необычного шпиля наши [GigaGetExplorerPlural] обнаружили то, что кажется каким-то центром управления, но они до сих пор не смогли определить, что он на самом деле делает.\n\nЛидер экспедиции [giga_birch_expedition_leader.GetName] предлагает не пытаться вмешиваться в это оборудование без лучшего понимания, так как другие объекты-кандидаты находятся значительно дальше, и могут быть не такими рабочими."
+  giga_birch.5003.a:99 "Наши [GetResearchers] расшифруют это в мгновение ока."
+  giga_birch.5003.b:99 "Возможно, решение откроется само собой, со временем."
+  giga_birch.5003.b.desc:99 "Требуется технология £engineering_research£ §Y$tech_mega_engineering$§!, чтобы продолжить это направление исследований."
+  
+  giga_birch_origin_expedition_5:99 "Расшифровка сетевого протокола"
+  giga_birch_origin_expedition_5_DESC:99 "Мы определили, что этот таинственный центр управления может быть ключом к доступу к системам Сооружения и восстановления его былого величия. Мы должны взломать протокол сети."
+  
+  giga_birch.5004:99 "Новая зацепка"
+  giga_birch.5004.desc:99 "Новые разработки в области структурной инженерии придали контекст комнате управления, с которой наша экспедиция столкнулась некоторое время назад, и теперь ясно, что неизвестные данные, которые мы не могли понять, были связаны с распределением ресурсов в системах Сооружения.\n\nВооруженные этим новым пониманием, мы теперь считаем, что у нас есть все необходимое для расшифровки сетевого протокола, используемого для управления этими системами."
+  giga_birch.5004.a:99 "Наши [GetResearchers] расшифруют это в мгновение ока."
+  
+  giga_birch.5005:99 "Сеть, раскрыта"
+  giga_birch.5005.desc:99 "Перед нами простирается огромная паутина; созвездие из ста миллиардов крошечных звезд, соединенных тонкими нитями данных. Почти все они потускнели, и лишь несколько рассеянных точек мерцают, противостоя темноте.\n\nЭто цифровая сущность Сооружения, его истинная форма. Оно прекрасно.\n\nОно умирает.\n\nНаши локальные узлы в некоторой степени целы, но работают в состоянии пониженной мощности, неспособные правильно организовать себя без направляющей руки. Она пришла в такое плачевное состояние, что все сооружение медленно разрушается.\n\nЭнергия, необходимая для спасения, намного превышает все, что мы можем предоставить, но если у нас выйдет подключиться к источнику, оживить сердце Сооружения, то, возможно, нам удастся убедить мир спасти себя.\n\nТем временем, той капле энергии, доступной нам, должно быть более чем достаточно, чтобы перезапустить некоторые автоматические системы в узле, ближайшие к нашему дому."
+  giga_birch.5005.a:99 "Теперь мы поняли нашу истинную цель."
+  
+  giga_birch.5006:99 "Новая эра удобства"
+  giga_birch.5006.desc:99 "Несмотря на всю серьезность ситуации, сегодня день для празднования, поскольку сделан первый шаг в установлении нашей опеки над Сооружением. Теперь мы понимаем основы того, как оно работает, и что мы должны сделать, чтобы починить его, по крайней мере, абстрактно.\n\nК сожалению, эти открытия ничего не дали для объяснения нашей собственной роли в истории Сооружения. Наши [GigaGetExplorerPlural] быстро разобрались в интерфейсе центра управления, словно он был адаптирован под нас. Каковы же были создатели этого мира?\n\nНезависимо от этого, автоматизированные системы, которые мы вернули в строй на нашей родине, произвели революцию на всех производственных и добывающих уровнях, значительно расширив наши возможности."
+  giga_birch.5006.a:99 "Это лишь малая толика того, что нас ждет."
+  
+  #########################################
+  # expedition 6
+  
+  giga_birch.6001:99 "Шестая экспедиция"
+  giga_birch.6001.desc:99 "Пятая экспедиция показала нам, что наша истинная цель заключается в оживлении сердца Сооружения, возвращении систем генерации энергии в рабочее состояние. Шестая экспедиция отправится на поиски этого сердца.\n\nКарта сети, которую мы извлекли из центра управления на машинном уровне, позволила нам определить дальний шпиль, который должен обеспечить доступ к более глубоким уровням. Дальше все становится менее определенным, но есть несколько вероятных мест для другого командного центра, который будет вести нас дальше.\n\nЛидер экспедиции [giga_birch_expedition_leader.GetName] и [GigaGetExplorerPlural] под его крылом последуют в нижние слои для создания передовой базы операций."
+  giga_birch.6001.a:99 "Неведом путь, но цель ясна."
+  
+  giga_birch.6002:99 "Слой льда"
+  giga_birch.6002.desc:99 "Лидер экспедиции [giga_birch_expedition_leader.GetName] сообщает, что транзитный шпиль успешно достигнут, и, как и прежде, наши [GigaGetExplorerPlural] посланы вперед основного конвоя в качестве разведчиков.\n\nНа этот раз был доступен только один слой, где [GigaGetExplorerPlural] были немедленно встречены снежной бурей. Продолжительное наблюдение показало, что этот слой полон льда и снега, а чудовищные штормовые бури непрерывно перемещаются по ландшафту.\n\nНеблагоприятные условия могут создать некоторые проблемы для экспедиции, но они хорошо подготовлены и сохраняют высокую мотивацию."
+  giga_birch.6002.a:99 "Неожиданно, но и неудивительно."
+  
+  giga_birch.6003:99 "Призраки в снегу"
+  giga_birch.6003.desc:99 "Во время путешествия через арктический слой, пронизанный бурями, наши [GigaGetExplorerPlural] встретили множество заброшенных поселений, гораздо чаще, чем на нашем родном слое, и каждое, похоже, построено другой культурой с различным уровнем технологического развития.\n\nЛюбопытно, что ни одно из них, похоже, не было подготовлено к такой экстремальной погоде, что заставило лидера экспедиции [giga_birch_expedition_leader.GetName] предположить, что их заброшенность может быть вызвана изменением условий окружающей среды за последние несколько столетий.\n\nСуществует вероятность, что такой сдвиг мог быть вызван ухудшением систем экологического контроля Сооружения, и что в будущем они могут быть исправлены. Однако прежние обитатели давно исчезли."
+  giga_birch.6003.a:99 "Трагедия, которой можно было избежать."
+  giga_birch.6003.b:99 "Естественный отбор во всей красе."
+  giga_birch.6003.c:99 "Хорошее избавление."
+  
+  giga_birch.6004:99 "Небольшое убежище"
+  giga_birch.6004.desc:99 "Лидер экспедиции [giga_birch_expedition_leader.GetName] сообщает, что после особенно сильной метели экспедиция была вынуждена отступить в систему каньонов, но при этом наткнулась на кое-что интересное.\n\nЭтот конкретный каньон прорезает ряд больших пещер, которые из-за своего укрытого положения могут быть лучшим местом для передовой базы. Кроме того, в пещерах богатая подземная экология, многие виды лишайников выживают за счет хемосинтеза, подпитываемого газовым выбросом.\n\nЕсли бы мы создали здесь базу, мы могли бы либо собирать лишайники, либо напрямую использовать газовые скважины для выработки энергии."
+  giga_birch.6004.a:99 "Мы должны выращивать лишайники."
+  giga_birch.6004.a.desc:99 "Наш форпост в пещерах будет сосредоточен на производстве £food£ §Yпищи§!.\n "
+  giga_birch.6004.b:99 "Вскрыть газовые скважины."
+  giga_birch.6004.b.desc:99 "Наш форпост в пещерах сосредоточится на производстве £energy£ §Yэнергокредитов§!.\n "
+  
+  #########################################
+  # expedition 7
+  
+  giga_birch.7001:99 "Седьмая экспедиция"
+  giga_birch.7001.desc:99 "Благодаря показаниям, снятым с нашей передовой базы в арктическом слое, созданной во время шестой экспедиции, дальнейший анализ карты Сооружения сети дал нам надежную наводку на местоположение второго командного центра.\n\nСедьмая экспедиция, возглавляемая лидером [giga_birch_expedition_leader.GetName], отправится с передовой базы с целью достичь командного центра и обеспечить его безопасность."
+  giga_birch.7001.a:99 "Мы близко."
+  
+  giga_birch.7002:99 "В ловушке подо льдом"
+  giga_birch.7002.desc:99 "Лидер экспедиции [giga_birch_expedition_leader.GetName] сообщает, что наши [GigaGetExplorerPlural] достигли места назначения. Первоначально не сумев ничего найти, они в конце концов наткнулись на большое искусственное сооружение на дне замерзшего озера в нескольких десятках километров от точки прибытия.\n\nВ настоящее время неясно, является ли это сооружение еще одним командным центром, поскольку оно и значительно больше того, что находится на машинном уровне, и не прикреплено к шпилю.\n\nПодготовка к отправке группы вниз к затопленному сооружению уже началась."
+  giga_birch.7002.a:99 "Почему он внизу?"
+  
+  giga_birch_origin_expedition_7:99 "Исследование затонувшего сооружения"
+  giga_birch_origin_expedition_7_DESC:99 "Наши [GigaGetExplorerPlural] обнаружили древнее сооружение, покоящееся на дне ледяного озера. Мы должны выяснить его назначение, так оно может оказаться командным центром, который мы ищем."
+  
+  giga_birch.7003:99 "Древняя обсерватория"
+  giga_birch.7003.desc:99 "Когда наши [GigaGetExplorerPlural] вошли в сооружение на дне озера, они надеялись найти еще один центр управления.\n\nТо, что они нашли вместо этого, было гораздо более полезным для наших текущих целей.\n\nЗатонувший объект оказался своего рода наблюдательной станцией, соединенной с тысячами постов наблюдения, большинство из которых сейчас отключены, а некоторые соответствуют по расположению разрушенным поселениям, распространенным в арктическом слое. Похоже, что это был своего рода грандиозный эксперимент по изучению развития примитивных цивилизаций, а этот объект был основным центром операции. Насколько мы можем судить, этот уровень не всегда был ледяным, что подтверждает гипотезу об экологическом коллапсе.\n\nДаже в запущенном состоянии эта обсерватория все еще имеет большой набор неповрежденного вычислительного оборудования, и может быть перепрофилирована в наших собственных целях."
+  giga_birch.7003.a:99 "По крайней мере, это объясняет столько поселений."
+  
+  giga_birch.7004:99 "Удар и промах"
+  giga_birch.7004.desc:99 "Быть может, это не центр управления, который мы искали, но не стоит недооценивать ценность обсерватории. Ее вычислительная мощность огромна, не говоря о том, сколько мы можем узнать, если в ее носителях сохранились древние данные.\n\nБолее тревожным является то, что миссия обсерватории ставит вопрос о том, не были ли мы также экспериментом, начатым давным-давно строителями этого места. Мы не можем этого исключить, но и подтвердить тоже не способны.\n\nВозможно, мы не достигли нашей главной цели, но вооруженные этими новыми знаниями, ее будет легче найти."
+  giga_birch.7004.a:99 "Временная неудача, с лучом надежды."
+  
+  giga_birch.7005:99 "Подход завершен"
+  giga_birch.7005.desc:99 "Мы достигли точки невозврата в восстановлении древней обсерватории. После этой точки дальнейшие изменения в наших планах разрушат наши шансы на восстановление объекта, так как многие технологии все еще находятся за пределами нашего понимания."
+  giga_birch.7005.desc.science:99 "$giga_birch.7005.desc$\n\nПо завершению, наши [root.GetResearchers] получат незаменимую помощь в работе."
+  giga_birch.7005.desc.unity:99 "$giga_birch.7005.desc$\n\nПо завершению, обсерватория поможет сохранить нашу культуру."
+  giga_birch.7005.desc.trade:99 "$giga_birch.7005.desc$\n\nПо завершению, вычислительная мощность обсерватории повысит точность наших рыночных прогнозов."
+  giga_birch.7005.a:99 "Это будет важным активом."
+  
+  giga_birch.7006:99 "Восстановление обсерватории завершено"
+  giga_birch.7006.desc:99 "Восстановительные работы на затонувшей обсерватории подошли к концу, и объект восстановлен до полной работоспособности - по крайней мере, настолько, насколько это позволяют наши собственные технологии.\n\nЕе богатая вычислительная мощность уже используется, и мы ожидаем, что она останется важным элементом нашей империи на десятилетия вперед."
+  giga_birch.7006.a:99 "Отлично."
+  giga_birch.7006.a.desc:99 "Наши £district£ §Y$district_giga_origin_birch_lab_plural$§! в [situation.target.GetName] теперь производят дополнительные ресурсы."
+  
+  #########################################
+  # expedition 8
+  
+  giga_birch.8001:99 "Восьмая экспедиция"
+  giga_birch.8001.desc:99 "Наша неудача в обнаружении другого центра управления во время седьмой экспедиции привела к дальнейшему пониманию карты сети Сооружения. Во-первых, дополнительные показания с места обсерватории позволили нам сузить список мест-кандидатов, а во-вторых, сама обсерватория предоставила некоторые вычислительные мощности, необходимые для уточнения наших моделей.\n\nВосьмая экспедиция, которую возглавит лидер [giga_birch_expedition_leader.GetName], отправится к наиболее вероятному месту-кандидату."
+  giga_birch.8001.a:99 "Наша цель перед нами."
+  
+  giga_birch.8002:99 "Вопросы масштаба"
+  giga_birch.8002.desc:99 "Лидер экспедиции [giga_birch_expedition_leader.GetName] сообщает, что экспедиция прибыла к месту назначения, и хотя сейчас на местонахождение конвоя надвигается особенно сильный шторм, они установили визуальный контакт с искусственным сооружением, которое может быть нашей целью - командным центром.\n\nОно прикреплено к шпилю, как и первое, но форма значительно отличается: оно гораздо больше, но в целом проще. Как только буря пройдет, начнется разведка."
+  giga_birch.8002.a:99 "Это выглядит многообещающим."
+  
+  giga_birch.8003:99 "Пространственная загадка"
+  giga_birch.8003.desc:99 "Наши [GigaGetExplorerPlural] Схема сооружения, которую они послали исследовать, имеет особенности, указывающие на четырехмерный дизайн, использующий искусственное трехмерное многообразие, чтобы иметь большее внутреннее пространство, чем позволяют внешние размеры.\n\nПохоже, системы, обслуживающие многообразие, вышли из строя, обрушив пороги, ведущие внутрь, оставив коридоры резко обрезанными идеально гладкими стенами.\n\nС нашими знаниями о четырехмерной архитектуре, починить поврежденные системы и получить доступ к пространству внутри должно быть простым делом."
+  giga_birch.8003.desc.wait:99 "Наши [GigaGetExplorerPlural] в растерянности. Планировка структуры, которую они послали исследовать, просто не имеет смысла.\n\nКоридоры резко обрываются на идеально ровных поверхностях без видимой цели. Силовые кабели, находящиеся под напряжением, заканчиваются таким образом, что не могут образовать замкнутую цепь. Те немногие знаки, которые мы еще можем различить, указывают на загадочные ниши и тупики.\n\nЛидер экспедиции [giga_birch_expedition_leader.GetName] предполагает, что здесь может происходить нечто большее, чем мы можем видеть, и что нам следует продолжить поиски подсказок, чтобы найти метод, стоящий за этим безумием."
+  giga_birch.8003.a:99 "Захватывающая конструкция."
+  giga_birch.8003.b:99 "Мы должны быть терпеливы. Это может быть последним кусочком головоломки."
+  giga_birch.8003.b.desc:99 "Требуется технология £physics_research£ §Y$giga_tech_tetradimensional_engineering$§!, чтобы продолжить это направление исследований."
+ 
+  giga_birch_origin_expedition_8:99 "Доступ к четырехмерному сооружению"
+  giga_birch_origin_expedition_8_DESC:99 "Четырехмерная природа центра управления потребует некоторых нетрадиционных ремонтных работ, но это должно быть вполне в пределах наших возможностей."
+  
+  giga_birch.8004:99 "Видеть вещи под новым углом"
+  giga_birch.8004.desc:99 "По мере того как росло наше понимание физики измерений, загадки, связанные с центром управления и его особой конструкцией, уменьшались день ото дня. Теперь даже при случайном осмотре наши [root.GetResearchers] утверждают, что его структура четырехмерна, что в ретроспективе является ожидаемым выбором дизайна.\n\nТеперь получение доступа не займет много времени."
+  giga_birch.8004.a:99 "Внезапно все приобретает смысл."
+  
+  giga_birch.8005:99 "Истинная глубина"
+  giga_birch.8005.desc:99 "Лидер экспедиции [giga_birch_expedition_leader.GetName] сообщает, что ремонт сооружения, которое исследовала наша экспедиция, завершен. Системы, поддерживающие разобщенное трехмерное разнообразие, были восстановлены, и теперь мы можем получить доступ к пространству внутри.\n\nВнутри, наши [GigaGetExplorerPlural] нашли именно то, что мы искали: крупный командный центр. Отсюда мы сможем перезапустить ремонтные системы сооружения и начать процесс восстановления.\n\nОднако перед этим мы должны оживить сердце Сооружения.\n\nКомандный узел показал нам, что потока энергии и сырья едва хватает для поддержания Сооружения в его нынешнем состоянии, поэтому мы должны спуститься еще ниже. Мы должны отправиться к самой сверхмассивной черной дыре, чтобы починить огромные гравитационные буры и коллекторы, висящие над ее горизонтом событий"
+  giga_birch.8005.a:99 "Мы должны найти работоспособный коллектор!"
+  
+  giga_birch.8006:99 "Принятие (не)прямого контроля"
+  giga_birch.8006.desc:99 "Мы почти у цели. Самая важная часть еще впереди, но с восстановленным центром управления у нас теперь гораздо более высокий уровень контроля над системами Сооружения. Несмотря на крайне низкий уровень энергии во всей сети, мы можем перенаправить энергию и материалы из менее важных областей на нашу родину, чтобы оживить еще больше автоматизированных систем.\n\nЭто значительно повысит производительность, и мы ожидаем, что она будет еще больше, когда Сооружение будет полностью восстановлено."
+  giga_birch.8006.a:99 "Представьте себе, что станет возможным..."
+  
+  #########################################
+  # expedition 9
+  
+  giga_birch.9001:99 "Девятая экспедиция"
+  giga_birch.9001.desc:99 "С момента реактивации центра управления во время восьмой экспедиции наши [GetResearchers] изучили план Сооружения в поисках массива извлечения, на котором мы могли бы сосредоточить наши усилия.\n\nПочти все они либо полностью вышли из строя, либо слишком важны для локальных систем, чтобы их отключить, что делает ремонт сложной задачей. В таком состоянии всему сооружению, возможно, осталось всего несколько веков до катастрофического разрушения... Это пугающее предложение, но оно делает нашу миссию первостепенной.\n\nЛидер экспедиции [giga_birch_expedition_leader.GetName] возглавит операцию по поиску и ремонту гравитационного бура и коллекторной системы, которые будут сочтены наиболее подходящими для восстановления."
+  giga_birch.9001.a:99 "Последний кусочек головоломки."
+  
+  giga_birch.9002:99 "На грани забвения"
+  giga_birch.9002.desc:99 "Когда наши [GigaGetExplorerPlural] завершают спуск и входят в последний, самый нижний слой Сооружения, их охватывает благоговение.\n\nПеред ними бесконечный лес оборудования для сбора данных, свисающий вниз. Внизу простираются бесконечные чернильные глубины.\n\nЗдесь холодно, и оглушительная тишина царит над заключенным богом в сердце Сооружения.\n\nЭкспедицию отделяет от быстро вращающегося горизонта событий едва ли сотня километров, и эта цифра кажется смехотворно малой по сравнению с необъятностью черной дыры. Масштаб и точность инженерных разработок, необходимых для создания чего-то подобного, поистине умопомрачительны, и мы смиренно считаем себя его наследниками"
+  giga_birch.9002.a:99 "Невероятно."
+  
+  giga_birch.9003:99 "Дремлющий гравитационная бур"
+  giga_birch.9003.desc:99 "Лидер экспедиции [giga_birch_expedition_leader.GetName] сообщает, что наши [GigaGetExplorerPlural] наконец достигли места назначения.\n\nВытяжной массив - всего лишь один среди бесчисленных других, большой гравитационный бур, похожий на наши конструкции разуплотнителя материи. В то время как другие либо заметно повреждены, либо просто неподвижны, этот показывает признаки хотя бы минимальной работоспособности.\n\nЕсли технология окажется настолько тесно связанной, как кажется, процесс восстановления будет относительно простым."
+  giga_birch.9003.a:99 "Начать ремонт немедленно."
+  
+  giga_birch.9004:99 "Подход завершен"
+  giga_birch.9004.desc:99 "Мы достигли точки невозврата в нашем восстановлении огромного массива. После этой точки изменение наших планов приведет к ненужному срыву проекта и потребует начать все сначала."
+  giga_birch.9004.desc.energy:99 "$giga_birch.9004.desc$\n\nПо завершению, массивы будут собирать частицы, что увеличит наше производство £energy£ §Yэнергокредитов§!."
+  giga_birch.9004.desc.minerals:99 "$giga_birch.9004.desc$\n\nПо завершению, массивы будут разуплотнять материю, что увеличит наше производство £minerals£ §Yминералов§!."
+  giga_birch.9004.desc.dark_matter:99 "$giga_birch.9004.desc$\n\nПо завершению, массивы будут модифицированы для извлечения полезной £sr_dark_matter£ §Yтемной материи§!."
+  giga_birch.9004.a:99 "На шаг ближе."
+  
+  giga_birch.9005:99 "Восстановление массива переработки завершено"
+  giga_birch.9005.desc:99 "Ремонт дремлющего гравитационного бура и коллекторного массива в ядре Сооружения завершено. С этим новым потоком материи и энергии мы можем запустить автоматические системы ремонта, которые в конечном итоге вернут Сооружение в полностью рабочее состояние.\n\nТеперь остается только дождаться завершения предварительных ремонтных работ, а затем подать передовые материалы, необходимые для завершения работы."
+  giga_birch.9005.a:99 "Мы так близки."
+  giga_birch.9005.a.desc:99 "Наш прогресс ускорился...\n "
+  
+  #########################################
+  # ending
+  
+  giga_birch.10000:99 "Последний шаг"
+  giga_birch.10000.desc:99 "Несколько лет назад девятая - теперь уже последняя - экспедиция успешно отремонтировала массив переработки в самом сердце великого Сооружения, которое мы называем домом. С тех пор мы тщательно направляли самовосстанавливающиеся системы на транспортную и распределительную инфраструктуру, готовясь к последнему этапу процесса.\n\nЧтобы полностью возродить Сооружение, нам потребуется скормить значительное количество передовых материалов."
+  giga_birch.10000.a:99 "Время настало."
+  giga_birch.10000.a.desc:99 "§HОткрывает решение:§! $decision_giga_origin_birch_restore$"
+  
+  giga_birch.10001:99 "Рассвет новой эры"
+  giga_birch.10001.desc:99 "Свершилось! Когда мы впервые узнали о вселенной за пределами небес нашего родного слоя, трудно было поверить, что [this.GetName] является искусственным. Мы отправились на исследование, чтобы узнать истинную природу нашего мира... Но мы никогда не ожидали, что он окажется настолько запущенным, настолько близким к краху.\n\nСегодня мы наблюдаем возрождение нашего мира. Бесчисленные машины работают в унисон, чтобы создать единое целое, грандиозную симфонию инженерного искусства, настолько огромную и удивительную, что мы с трудом можем поверить, что это возможно.\n\nНаш родной Остров, некогда колыбель нашей цивилизации, был превращен в исторический заповедник, чтобы мы всегда помнили о своем происхождении. Сооружение снова живет; как мы будем использовать его, чтобы определить нашу судьбу?"
+  giga_birch.10001.a:99 "Необъятные просторы, безграничные возможности."
+  giga_birch.10001.a.desc:99 "Существующие районы и особенности будут преобразованы в новые формы.\n "
+  
+  #########################################
+  ### Expedition Random Events ############
+  #########################################
+  
+  giga_birch.11010:99 "Открытие на домашнем слое"
+  giga_birch.11010.desc:99 "Наши [GigaGetExplorerPlural] сделали новое незначительное открытие при составлении карты нашего домашнего слоя."
+  giga_birch.11010.a:99 "Отлично"
+  
+  giga_birch.11020:99 "Обнаружены новые данные"
+  giga_birch.11020.desc.exterminate:99 "Наши [GetArchaeologistPlural] прочесывающие руины бывшей родины [giga_birch_expedition_2_country.GetAdj], обнаружили кладезь данных.\n\nХотя они не такие подробные и полные, как наши собственные журналы, [GigaGetExplorerPlural] сочтут их полезными."
+  giga_birch.11020.desc.trade:99 "Наши торговые партнеры [giga_birch_expedition_2_country.GetAdj] связались с нами, предложив некоторые обнаруженные записи о своих собственных исследованиях, проведенных до того, как мы впервые установили контакт.\n\nХотя они не такие подробные и полные, как наши собственные журналы, [GigaGetExplorerPlural] сочтут их полезными."
+  giga_birch.11020.desc.integrate:99 "Наши [GetResearchers], ведущие архивы в столице [giga_birch_expedition_2_country.GetAdj], сообщают о обнаружении записей, подробно описывающих их усилия по исследованию до того, как мы впервые установили контакт.\n\nХотя они не такие подробные и полные, как наши собственные журналы, [GigaGetExplorerPlural] сочтут их полезными."
+  giga_birch.11020.a:99 "Очаровательно"
+  
+  giga_birch.11030:99 "Открытие на машинном слое"
+  giga_birch.11030.desc:99 "Наши [GigaGetExplorerPlural] сделал новое незначительное открытие при отображении машинного слоя."
+  giga_birch.11030.a:99 "Отлично"
+  
+  giga_birch.11040:99 "Перевыполнение плана"
+  giga_birch.11040.desc:99 "Рабочие на восстановленном древнем мануфактурном комплексе сообщают, что они выполняют квоты раньше времени, так как некоторые машины, похоже, самостоятельно адаптируются к нашим производственным графикам."
+  giga_birch.11040.a:99 "Отлично"
+  
+  giga_birch.11060:99 "Открытие на арктическом слое"
+  giga_birch.11060.desc:99 "Наши [GigaGetExplorerPlural] сделали новое незначительное открытие при составлении карты арктического слоя."
+  giga_birch.11060.a:99 "Отлично"
+  
+  giga_birch.11070:99 "Обсерватория 'Прозрение'"
+  giga_birch.11070.desc:99 "Наши [GetResearchers] в восстановленной обсерватории на арктическом слое сообщают о притоке новых данных. Похоже, что перенаправление узла в информационной сети Сооружения подключило нас к ранее неизвестному набору узлов обработки."
+  giga_birch.11070.a:99 "Отлично"

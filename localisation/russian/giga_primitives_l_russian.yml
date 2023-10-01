@@ -1,0 +1,99 @@
+﻿l_russian:
+ ##############
+ ### Armies ###
+ ##############
+ # army names given when spawning custom armies
+
+ # eaw, faust
+ NAME_reicsharmee:0 "Рейхсармия"
+ NAME_reicsharmee_army:0 "Оперативная группа Рейхсармии"
+ NAME_aquileian:0 "Гвардия Аквелии"
+ NAME_wingbardian:0 "Вооруженные силы Вингбардии"
+ NAME_river:0 "Оперативники Речной Федерации"
+ NAME_changeling:0 "Рой чейнджлингов"
+ NAME_equestrian:0 "Гарнизон Эквестрии"
+ NAME_kirin:0 "Армия Кирин"
+ NAME_storm:0 "Легионы шторма"
+ NAME_faust_guard:0 "Гвардия Фауста"
+ NAME_faust_pdf:0 "Силы планетарной обороны"
+
+ # corrona
+ NAME_bone:0 "Костяные легионы"
+ NAME_madknight:0 "Безумный рыцарь"
+
+ # flusion
+ NAME_katzen_army:0 "Катценармия"
+ NAME_katzen_air:0 "Военно-воздушные силы Катцена"
+ NAME_katzen_navy:0 "Флот Катцена"
+ NAME_katzen_panzers:0 "Панзергруппы Катцен"
+ NAME_kronk_army:0 "Оперативная группа Кронк"
+ NAME_yinjite_army:0 "Оперативная группа Иньцзите"
+ NAME_haranian_army:0 "Оперативная группа Харанян"
+ NAME_solakian_army:0 "Солакийские вооруженные силы"
+ NAME_solakian_air:0 "Солакийские военно-воздушные силы"
+ NAME_laurnaise_army:0 "Лаурнейские Грунтиты"
+ NAME_laurnaise_navy:0 "Лаурнейский флот"
+ NAME_ezicanian_army:0 "Зусприйские охотники"
+ NAME_axolinian_army:0 "Аксолинские ополченцы"
+ NAME_zousanian_army:0 "Линтерианские защитники"
+ NAME_mercurian_army:0 "Меркурианская береговая охрана"
+ NAME_altarian_army:0 "Защитники Алтарии"
+ NAME_manglarian_army:0 "Мангларианские маулеры"
+ NAME_infusedezic_army:0 "Заряженные Зусприйские легионы"
+ NAME_ufs_army:0 "Миротворцы НФС"
+ NAME_gruntite_army:0 "Грунтитские войска"
+
+ NAME_solakian_rebel:0 "Солакийские борцы за свободу"
+ NAME_ezic_rebel:0 "Зусприйские охотники"
+ NAME_ezic_militia:0 "Зусприйские ополченцы"
+ NAME_zousanian_rebel:0 "Линтерианские стражи"
+ NAME_laurnaise_rebel:0 "Лаурнейские Грунтиты-повстанцы"
+ NAME_kronk_rebel:0 "Легионы Кронка"
+ NAME_cookian_rebel:0 "Галлетианские ополченцы"
+ NAME_byuncyat_rebel:0 "Бюн-киатские ополченцы"
+ NAME_ravkan_rebel:0 "Повстанцы Равкана"
+ NAME_symbian_rebel:0 "Симбийская оперативная группа"
+ NAME_katzenpanzer_rebel:0 "Украденные панзергруппы Катцен"
+ NAME_generic_rebel:0 "Проникшая дивизия"
+ NAME_flusionian_rebel:0 "Флуизионское ополчение"
+ NAME_flusionian_defector:0 "Флуизионские дезертиры"
+
+ # katzen
+ NAME_katzenarmee:0 "Оперативная группа Катценармии"
+ NAME_katzenarmee_1:0 "Оперативная группа Катценармии I"
+ NAME_katzenarmee_2:0 "Оперативная группа Катценармии II"
+ NAME_katzen_garrison:0 "Гарнизон Катценармии"
+ NAME_katzen_peacekeeper:0 "Миротворческий гарнизон Катценармии"
+ NAME_katzencolonial_army:0 "Колониальный гарнизон Катценармии"
+
+ # katzen special
+ NAME_katzenpsionic_army:0 "Псионические аватары Катцена"
+ NAME_katzenpsionic_defense:0 "Псионические аватары"
+
+ # katzen FEs
+ NAME_katzenelite_army:0 "Кошачья элита"
+ NAME_grandezic_army:0 "Великие зусприйцы"
+ NAME_nienet_army:0 "Гвардия Ниенета"
+ NAME_potradus_army:0 "Гвардия Потрадуса"
+ NAME_forcinia_army:0 "Гвардия Форцинии"
+ NAME_vicke_army:0 "Гвардия Викеи"
+ NAME_meopaelite_army:0 "Элита Меопии"
+ NAME_katzenland_army:0 "Гвардия Новой Катценландии"
+
+ # paluush
+ NAME_paluush_army:0 "Колоссальные легионы Палууша"
+ NAME_grandbunny_army:0 "Грандбанни"	
+ NAME_pohtin_army:0 "Пох'тин"
+ NAME_sparkbun_army:0 "Спаркбун"
+
+ # alderson
+ NAME_excognitor_army:0 "Excognitor Praetorian"
+ NAME_dominion_army:0 "Хищник Доминиона"
+ 
+ # pouchkinn
+ NAME_pouchkguard_army:0 "Гвардия Паучк"
+ NAME_lab_army:0 "Лабораторные подразделения наступательного реагирования"
+
+ # rogue PCC
+ NAME_pcc_army:0 "Подразделения по устранению угрозы"
+

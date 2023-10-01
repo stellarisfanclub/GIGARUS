@@ -1,0 +1,53 @@
+﻿l_russian:
+    #Yes I did make a new file for this, hopefully I can bring some of the other UI and menu stuff in here eventually to drop the size of the main file
+ 
+
+    ####################################################################################################################
+    # COMMUNICATIONS BUTTONS
+    ####################################################################################################################
+
+    giga_toggle_diplomacy_sa:99 "Переключайтесь между кнопками §YМеню контакта кризисов§! и §Yкомандами Звездному уничтожителю§!!"
+    giga_no_contacts:0 "Невозможно переключить меню контактов, не имея доступа к §YЗвездному уничтожителю§!"
+    #Buttons disabled
+    giga_not_contacted:0 "$TRIGGER_FAIL$Вы еще не открыли этот контакт"
+    giga_blokkats_open:0 "$TRIGGER_FAIL$Меню §Yбюро исследования Блоккотов§! уже открыто"
+    giga_aeternum_open:0 "$TRIGGER_FAIL$Меню §YАгенство Аэтернит§! уже открыто"
+    giga_traders_scared:0 "$TRIGGER_FAIL$Вы не можете связаться с §YУрмазином§!, пока §Rсоединение§! продолжает угрожать галактике"
+    giga_katzens_defeated:0 "$TRIGGER_FAIL$Теперь, когда §Yимперия Катценартиг§! побежден, контакты с партизанами не имеют смысла"
+    giga_katzens_vassal_solak:0 "$TRIGGER_FAIL$В качестве §YКатцпротектората§! нас полностью контролирует Катцен, поэтому связаться с §YРокуалийскими борцами за свободу§! невозможно или слишком рискованно"
+    giga_katzens_vassal_ezic:0 "$TRIGGER_FAIL$В качестве §YКатцпротектората§! нас полностью контролирует Катцен, поэтому связаться с §Yорденом Зуспри§! невозможно или слишком рискованно"
+    giga_solak_open:0 "$TRIGGER_FAIL$Меню §YРокуалийских борцов за свободу§! уже открыто"
+    giga_katzens_ezic_rebellion:0 "$TRIGGER_FAIL$§YАвангард Зуспри§! слишком занят своим текущим восстанием, чтобы отвечать на сообщения"
+
+    ####################################################################################################################
+    # MEGA MANAGEMENT
+    ####################################################################################################################
+
+    giga_megaview_manage:0 "§HУправление мегасооружением§!"
+    giga_megaview_manage_no_options:0 "$TRIGGER_FAIL$Это мегасооружение не имеет дополнительных опций управления"
+
+    giga_mega_management_title:0 "Управление [from.GetName]"
+    giga_mega_management_dismantle:0 "Демонтаж мегасооружения"
+    giga_mega_management_dismantle_desc:0 "Мы разберем мегасооружение [from.GetName], вернув часть ресурсов.\n\n§PЭто действие окончательно и неотвратимо.§!"
+    giga_mega_management_dismantle_ongoing:0 "Данное мегасооружение уже разбирается"
+    giga_mega_management_mode_already_selected:0 "§LЭтот режим уже выбран§!"
+
+    giga_mega_management_section_left:0 "£giga_mega_menu_title_left£    "
+    giga_mega_management_section_right:0 "    £giga_mega_menu_title_right£"
+
+    #Succ Menu
+    giga_succ:0 "$giga_mega_management_section_left$$succ_1$ Speed$giga_mega_management_section_right$"
+    giga_succ_mode_standard:0 "Стандартное извлечение"
+    giga_succ_mode_standard_desc:0 "§L$name_succ_full$ будет работать на стандартной скорости.\n\nНе изменяет §Yвремя работы§! £time£\nСтандартное §Yпроизводство§!§! £energy£ £volatile_motes£ £exotic_gases£"
+    giga_succ_mode_fast:0 "Ускоренное извлечение"
+    giga_succ_mode_fast_desc:0 "§L$name_succ_full$ будет работать на более высоких скоростях ценой снижения эффективности.\n\nУменьшает §Rвремя работы§! £time£ \nУвеличивает §Gпроизводство§!§! £energy£ £volatile_motes£ £exotic_gases£"
+    giga_succ_mode_slow:0 "Медленное извлечение"
+    giga_succ_mode_slow_desc:0 "§L$name_succ_full$ будет работать на более низких скоростях, повышая общую эффективность.\n\nУвеличивает §Gвремя работы§! £time£ \nУменьшает §Rпроизводство§!§! £energy£ £volatile_motes£ £exotic_gases£"
+    #stripmine
+    giga_automated_stripmine:0 "$giga_mega_management_section_left$$automated_stripmine_1$ Speed$giga_mega_management_section_right$"
+    giga_automated_stripmine_mode_standard:0 "Стандартное извлечение"
+    giga_automated_stripmine_mode_standard_desc:0 "§L$automated_stripmine_1$ будет работать на стандартной скорости.\n\nНе изменяет §Yвремя работы§! £time£\nНе изменяет §Yпроизводство§!§! £minerals£ £rare_crystals£ £volatile_motes£ £exotic_gases£"
+    giga_automated_stripmine_mode_fast:0 "Ускоренное извлечение"
+    giga_automated_stripmine_mode_fast_desc:0 "§L$automated_stripmine_1$ будет работать на более высоких скоростях ценой снижения эффективности.\n\nУменьшает §Rвремя работы§! £time£ \nУвеличивает §Gпроизводство§!§! £minerals£ £rare_crystals£ £volatile_motes£ £exotic_gases£"
+    giga_automated_stripmine_mode_slow:0 "Медленное извлечение"
+    giga_automated_stripmine_mode_slow_desc:0 "§L$automated_stripmine_1$ будет работать на более низких скоростях, повышая общую эффективность.\n\nУвеличивает §Gвремя работы§! £time£ \nУменьшает §Rпроизводство§!§! £minerals£ £rare_crystals£ £volatile_motes£ £exotic_gases£"

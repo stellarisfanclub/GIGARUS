@@ -1,0 +1,48 @@
+﻿l_russian:
+
+	# Compound
+	NAME_The_Compound:0 "Соединение"
+	NAME_Dark_Matter_Species:0 "Тенебрис"
+
+	NAME_Unbidden_Starbase:0 "Звездная база Незванных"
+	NAME_Architect:0 "Архитектор"
+	NAME_Propagator:0 "Распространитель"
+	NAME_Compound_Hornet:0 "Шершень"
+	NAME_Compound_Stalker:0 "Сталкер"
+	NAME_Compound_Humiliator:0 "Унижатель"
+	NAME_Compound_Apex:0 "Апекс"
+	NAME_Compound_Sovereign:0 "Суверен"
+	NAME_Compound_Reshaper:0 "Реформер"
+	NAME_Barricade:0 "Баррикада"
+	NAME_Garrison:0 "Гарнизон"
+	NAME_Bastion:0 "Бастион"
+	NAME_Bulwark:0 "Фальшборт"
+	NAME_Aegis:0 "Эгида"
+
+	# Creators
+	NAME_Stellar_Annihilator_Country:0 "Кэт-12-Аннигилятор-Сосуд"
+ 	NAME_Stellar_Annihilator:0 "Звездный аннигилятор"
+ 	NAME_Stellar_Annihilator_SK:0 "Звездный аннигилятор (Не отвечает)"
+	NAME_Stellar_Eradicator:0 "Звездный искоренитель"
+
+	# Traders
+	NAME_ehof_trader_species:0 "Урмазин"
+	NAME_ehof_trader_ruler:0 "Кионик"
+	NAME_ehof_traders:0 "Торговцы Урмазин"
+	NAME_Hauler:0 "Древний тягач"
+
+	NAME_Giga_Dragon:0 "Клонированный эфирный дракон"
+	NAME_Giga_Wraith:0 "Клонированный синий фантом"
+	NAME_Giga_Tiyanki:0 "Клонированная матриарх тиянки"
+	NAME_Giga_Stellarite:0 "Клонированный звезданитовый пожиратель"
+	NAME_Giga_Voidspawn:0 "Клонированный рожденный в пустоте"
+	NAME_Giga_Queen:0 "Клонированная королева роя"
+	NAME_Giga_Large:0 "Клонированный воин роя"
+	NAME_Giga_Carrier:0 "Клонированная мать роя"
+	NAME_Giga_Small:0 "Клонированный саранчид"
+	NAME_Giga_Deity:0 "Клонированный токсичный бог"
+	NAME_Giga_Amoeba:0 "Клонированная амеба"
+	NAME_Giga_Tiyanki_Small:0 "Клонированная тиянка-вол"
+
+	# Hidden
+	#NAME_ehof_global_hidden_empire:0 "Пространственное отражение"
